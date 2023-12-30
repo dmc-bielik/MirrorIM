@@ -1,87 +1,79 @@
-<div class="blog-item">
 
-  {.section item}
-  <article class="entry h-entry {@|item-classes}{.main-image?} has-main-image{.end} clear" id="article-{id}" data-item-id="{id}">
+{.section item}
 
-    <header class="entry-header">
-      <div class="meta-above-title">
-        {.section author}
-        <div class="entry-byline">
-          <span class="entry-author"><a href="{collection.fullUrl}?author={author.id}" class="p-author author entry-byline-link" rel="author">{displayName}</a></span>
-        </div>
-        {.end}
-        <div class="entry-dateline">
-          <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate><a href="{fullUrl}" class="entry-dateline-link">{addedOn|datetime date:long}</a></time>
-          {.if updatedOn}<time class="dt-updated updated" datetime="{updatedOn|date %F}"></time>{.end}
-        </div>
-        {.section categories}
-        <div class="entry-morefrom">
-          <span class="entry-category">{.repeated section @}<a href="/{collection.urlId}/category/{@|url-encode}" class="entry-morefrom-link" rel="tag">{@}</a>{.alternates with}, {.end}</span>
-        </div>
-        {.end}
-      </div>
-      <h1 data-content-field="title" class="entry-title p-name">
+  <!--WRAPPER-->
+  <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+
+    <!--POST TILE-->
+    <h1 class="title" data-content-field="title">
       {.passthrough?}
-        <a href="{sourceUrl}" class="entry-title-passthrough" target="_blank">{title}</a>
+        <a href="{sourceUrl}" target="_blank">{title}</a>
       {.or}
-        <a href="{fullUrl}" class="u-url" rel="bookmark">{title}</a>
+        {title}
       {.end}
-      </h1>
-      <div class="meta-below-title {.section categories}{.or}no-categories{.end}">
-        {.section author}
-        <div class="entry-byline">
-          <span class="entry-author"><a href="{collection.fullUrl}?author={author.id}" class="p-author author entry-byline-link" rel="author">{displayName}</a></span>
-        </div>
-        {.end}
-        <div class="entry-dateline">
-          <time class="dt-published published entry-date" datetime="{addedOn|date %F}" pubdate><a href="{fullUrl}" class="entry-dateline-link">{addedOn|datetime date:long}</a></time>
-          {.if updatedOn}<time class="dt-updated updated" datetime="{updatedOn|date %F}"></time>{.end}
-        </div>
-        {.section categories}
-        <div class="entry-morefrom">
-          <span class="entry-category">{.repeated section @}<a href="/{collection.urlId}/category/{@|url-encode}" class="entry-morefrom-link" rel="tag">{@}</a>{.alternates with}, {.end}</span>
-        </div>
-        {.end}
-      </div>
-    </header>
+    </h1>
 
-    <div class="entry-content e-content">
-      {.section body}
-        {@}
-      {.end}
-    </div>
+    <!--AUTHOR AND DATE-->
+    <p class="meta">
+      <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
+    </p>
 
-    <footer class="entry-footer clear">
-      {.section sourceUrl}
-      <p class="entry-source">
-        {localizedStrings.source}<a href="{sourceUrl}" target="_blank">{sourceUrl}</a>
-      </p>
-      {.end}
-      {.section tags}
-      <p class="entry-tags">
-        {localizedStrings.tagged} {.repeated section @}<a href="/{collection.urlId}/tag/{@|url-encode}" rel="tag">{@}</a>{.alternates with}, {.end}
-      </p>
-      {.end}
-      <div class="entry-actions">
-        {@|like-button}{@|social-button-inline}
-      </div>
-    </footer>
+    <!--MAIN CONTENT-->
+    {body}
 
-    {.if postItemInjectCode}<div class="entry-injection">{postItemInjectCode}</div>{.end}
+    <!--BLOG INJECTION-->
+    {postItemInjectCode}
+
+    <!--CATEGORIES-->
+    {.repeated section categories}
+      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
+    {.end}
+
+    <!--TAGS-->
+    {.repeated section tags}
+      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
+    {.end}
+
+    <!--SHARE AND LIKE-->
+    {@|like-button}
+    {@|social-button}
+
+
+    <!--LOCATION-->
+    {.section location}
+      {.section addressTitle}
+        {addressTitle}
+        {addressLine1}
+        {addressLine2}
+        {addressCountry}
+      {.end}
+    {.end}
+
+    <!--COMMENTS-->
+    {@|comments}
 
   </article>
 
-  <div id="comments-{id}" class="p-comment">
-    {.comments?}{@|comments}{.end}
-  </div>
+{.end}
 
-  {.end}
 
-  {.if pagination}
-  <nav class="pagination clear">
-    <div class="newer">{.if pagination.prevItem}<span class="prev-label">{localizedStrings.newerPost}</span><a href="{pagination.prevItem.fullUrl}" rel="prev"><span>{pagination.prevItem.title}</span></a>{.end}</div><!-- comment the linebreak between these two elements because science
-  --><div class="older">{.if pagination.nextItem}<span class="next-label">{localizedStrings.olderPost}</span><a href="{pagination.nextItem.fullUrl}" rel="next"><span>{pagination.nextItem.title}</span></a>{.end}</div>
+<!--PAGINATION-->
+{.section pagination}
+  <nav class="blog-item-pagination">
+
+    <!--NEWER PAGE-->
+    {.section prevItem}
+      <a href="{fullUrl}">Newer</a>
+    {.or}
+      <a class="disabled">Newer</a>
+    {.end}
+
+    <!--OLDER PAGE-->
+    {.section nextItem}
+      <a href="{fullUrl}">Older</a>
+    {.or}
+      <a class="disabled">Older</a>
+    {.end}
+
   </nav>
-  {.end}
-
-</div>
+{.end}
