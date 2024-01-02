@@ -1,0 +1,112 @@
+<footer>
+  <div class="prefooter bg-blue text-white">
+    <div class="container">
+      <div class="grid grid-cols-4">
+        <div>
+          <h3 class="text-2xl font-semibold">Company</h3>
+          <p class="text-sm">
+            <a href="#!">About us</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Press</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Contact us</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Blog</a>
+          </p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">Resources</h3>
+          <p class="text-sm">
+            <a href="#!">Blog</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Getting Started</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Email</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Guides</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Videos</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Podcast</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Newsletter</a>
+          </p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">Help</h3>
+          <p class="text-sm">
+            <a href="#!">Support Center</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Contact Support</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Talk to Sales</a>
+          </p>
+        </div>
+          <img src="/assets/app-download-icons.png" alt="app download" width="200px" />
+        <div>
+          <h3 class="text-2xl font-semibold">Product</h3>
+          <p class="text-sm">
+            <a href="#!">Pricing</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Customers</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Reviews</a>
+          </p>
+        </div>
+        <div>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold">Legal</h3>
+          <p class="text-sm">
+            <a href="#!">Terms</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Privacy Notice</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Pathward Privacy Notice</a>
+          </p>
+          <p class="text-sm">
+            <a href="#!">Disclosures and Agreements</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="legal-footer">
+    <div class="container">
+      <div class="grid grid-cols-6">
+        <p class="text-sm">
+          <a href="#!">Sitemap</a>
+        </p>
+        <p class="text-sm">
+          <a href="#!">Privacy Policy</a>
+        </p>
+        <p class="text-sm">
+          <a href="#!">Terms</a>
+        </p>
+        <p class="text-sm text-gray-500">
+          © 2023 MirrorIM.
+        </p>
+        <div></div>
+        <div class="text-right">
+          <img src="/assets/socials.png" alt="socials" width="120px">
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

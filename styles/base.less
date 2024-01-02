@@ -8,65 +8,79 @@
 ***************************************************/
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont,
-    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
-    "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 100%;
   font-weight: normal;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: @black;
 }
 
-.site-container {
-  line-height: 1.6em;
-  color: #777;
-  max-width: 1020px;
-  padding: 6vw;
-
-  h1, h2, h3 {
-    font-weight: normal;
-    line-height: 1.2em;
-  }
-
-  a {
-    color: cornflowerblue;
-
-    &.disabled {
-      color: #ccc;
-    }
-  }
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+  margin: 0;
 }
 
-.site-header {
-  margin-bottom: 4vw;
+img,
+video {
+  vertical-align: middle;
+  max-width: 100%;
 }
 
-.site-navigation { }
-
-.site-navigation-list {
-  padding: 0;
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
-.site-navigation-item {
+.button {
   display: inline-block;
-  font-size: 87.5%;
+  padding: 18px 44px;
+  border-radius: 1px;
+  text-decoration: none;
+  color: @white;
+  background-color: @blue;
+  transition: all 0.2s;
 
-  & + .site-navigation-item {
-    margin-left: 1em;
+  // &:hover {
+  //   background-color: @black;
+  //   color: @white;
+  // }
+
+  &-sm {
+    padding: 10px 20px;
   }
 
-  a {
-    color: #111;
+  &-white {
+    display: inline-block;
+    padding: 18px 44px;
+    border-radius: 1px;
     text-decoration: none;
+    color: @black;
+    background-color: @white;
+    transition: all 0.2s;
+  }
+}
 
-    &:hover {
-      color: #999;
+.site-navigation {
+  background-color: @white;
+  padding: 16px 0;
+  
+  &-row {
+    & > div:last-child {
+      gap: 20px;
+
+      a:not(.button) {
+        color: @black;
+        text-decoration: none;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+      }
     }
   }
-
-  &.active-link > a {
-    color: #999;
-  }
-
 }
 
 .site-title-heading {
@@ -78,22 +92,144 @@ body {
   }
 }
 
-.content-container { }
-
 .site-footer {
   font-size: 75%;
   margin-top: 4vw;
   margin-bottom: 4vw;
 }
 
+/* Utils */
 
+.text-center {
+  text-align: center;
+}
 
-/* Homepage
-***************************************************/
+.text-right {
+  text-align: right;
+}
 
-body.homepage { }
+.text-white {
+  color: @white;
+}
 
+.text-black {
+  color: @black;
+}
 
+.text-blue {
+  color: @blue;
+}
+
+.text-grey {
+  color: @grey;
+}
+
+.text-5xl {
+  font-size: 44px;
+}
+
+.leading-none {
+  line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.font-normal {
+  font-weight: normal;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.bg-blue {
+  background-color: @blue;
+}
+
+.bg-black {
+  background-color: @black;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-6 {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.max-w-lg {
+  max-width: 512px;
+}
+
+.my-5 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.my-7 {
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Blog list
 ***************************************************/
@@ -105,8 +241,6 @@ body.collection-type-blog.view-list {
   }
 }
 
-
-
 /* Break grid and stack blocks on small screens
 ***************************************************/
 
@@ -114,4 +248,41 @@ body.collection-type-blog.view-list {
   @import 'sqs-grid-breaker';
 }
 
+/* Footer */
 
+footer {
+  .container {
+    max-width: 1140px;
+  }
+
+  .prefooter {
+    padding: 100px 0;
+
+    a {
+      color: @white;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 0.1px;
+    }
+
+    h3 {
+      margin-bottom: 40px;
+    }
+  }
+
+  .legal-footer {
+    padding: 20px 0;
+
+    p {
+      opacity: 0.5;
+    }
+
+    a,
+    p {
+      color: @black;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 0.1px;
+    }
+  }
+}

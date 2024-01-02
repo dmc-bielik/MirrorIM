@@ -1,23 +1,36 @@
 <nav class="site-navigation">
-  <ul class="site-navigation-list">
-    {.repeated section items}
+  <div class="container">
+    <div class="site-navigation-row flex items-center justify-between">
+      <div>
+        <a href="/">
+          <img src="/assets/mirror-im-logo.svg" width="150" alt="mirror im">
+        </a>
+      </div>
 
-      <li class="site-navigation-item {.section active} active-link{.end}">
+      <div class="flex items-center justify-end">
+        {.repeated section items}
 
-        <!-- collection link -->
-        {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
+          <div class="{.section active}active-link{.end}">
+
+            <!-- collection link -->
+            {.section collection}
+              <a href="{fullUrl}">{navigationTitle}</a>
+            {.end}
+
+            <!-- external link -->
+            {.section externalLink}
+              <a href="{url}"{.section newWindow} target="_blank"{.end}>
+                {title}
+              </a>
+            {.end}
+
+          </div>
         {.end}
 
-        <!-- external link -->
-        {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-          </a>
-        {.end}
-
-      </li>
-
-    {.end}
-  </ul>
+          <div>
+            <a href="#!" class="button button-sm">Start for free</a>
+          </div>
+      </ul>
+    </div>
+  </div>
 </nav>

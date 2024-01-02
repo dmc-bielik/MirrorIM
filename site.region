@@ -6,34 +6,30 @@
 
     <!-- include system scripts, page meta, and header code injection -->
     {squarespace-headers}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
-    <div class="site-container">
+    <header class="site-header">
+      <!-- site navigation -->
+      <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+    </header>
 
-      <header class="site-header">
-        <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+    <!-- cms content injection point -->
+    <main class="content-container" role="main" data-content-field="main-content">
+      {squarespace.main-content}
+    </main>
 
-        <!-- site title or logo -->
-        {.section website}
-          <h1 class="site-title-heading" data-content-field="site-title">
-            <a href="/" class="site-title-link">{siteTitle}</a>
-          </h1>
-        {.end}
-      </header>
+    <!--Footer with open block field -->
+    <footer class="site-footer" style="display:none;">
+      <squarespace:block-field id="footerBlocks" columns="12" />
+    </footer>
 
-      <!-- cms content injection point -->
-      <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}
-      </main>
-
-      <!--Footer with open block field -->
-      <footer class="site-footer">
-        <squarespace:block-field id="footerBlocks" columns="12" />
-      </footer>
-
-    </div>
+    {@|apply footer.block}
 
     <!-- combo and minify scripts when not logged in -->
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
