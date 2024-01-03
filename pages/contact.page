@@ -1,0 +1,22 @@
+<section class="contact-hero bg-blue text-white">
+  <div class="container">
+    <div class="contact-hero-row flex justify-between">
+      <div class="flex">
+        <img src="/assets/double-exposure-student-graduation-watching-sunrise.png"
+          alt="student graduation watching sunrise">
+        <img src="/assets/woman-helping-man-gym.png" alt="woman helping man gym">
+        <img src="/assets/grilled-chicken-rice-spicy-chickpeas-avocado-cabbage-pepper-buddha-bowl.png"
+          alt="grilled chicken rice spicy chickpeas avocado cabbage pepper buddha bowl">
+      </div>
+      <div>
+        <p>This app is designed for industries that focus on helping people set goals and accomplish goals.</p>
+      </div>
+      <div class="flex">
+        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png"
+          alt="muscular sportsman building biceps with dumbbell">
+        <img src="/assets/handsome-young-businessman-working-desk.png" alt="handsome young businessman working desk">
+        <img src="/assets/girl-sitting-table-writing.png" alt="girl sitting table writing">
+      </div>
+    </div>
+  </div>
+</section>
