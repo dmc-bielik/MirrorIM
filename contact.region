@@ -1,6 +1,6 @@
 <section class="contact-hero bg-blue text-white">
   <div class="container">
-    <div class="contact-hero-row flex justify-between">
+    <div class="contact-hero-row flex justify-between items-center">
       <div class="flex">
         <img src="/assets/double-exposure-student-graduation-watching-sunrise.png"
           alt="student graduation watching sunrise">
@@ -9,14 +9,27 @@
           alt="grilled chicken rice spicy chickpeas avocado cabbage pepper buddha bowl">
       </div>
       <div>
-        <p>This app is designed for industries that focus on helping people set goals and accomplish goals.</p>
+        <p class="text-center">This app is designed for industries that focus on helping people set goals and accomplish
+          goals.</p>
       </div>
       <div class="flex">
-        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png"
+        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell-1.png"
           alt="muscular sportsman building biceps with dumbbell">
         <img src="/assets/handsome-young-businessman-working-desk.png" alt="handsome young businessman working desk">
         <img src="/assets/girl-sitting-table-writing.png" alt="girl sitting table writing">
       </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact-form">
+  <div class="container">
+    <div class="grid grid-cols-2">
+      <div>
+        <h2>Contact Us</h2>
+        <p>For inquires about Product, please feel free to reach out here.</p>
+      </div>
+      <div>{squarespace.main-content}</div>
     </div>
   </div>
 </section>
