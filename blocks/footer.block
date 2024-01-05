@@ -1,5 +1,5 @@
 <footer>
-  <div class="prefooter bg-blue text-white">
+  {#  <div class="prefooter bg-blue text-white">
     <div class="container">
       <div class="grid grid-cols-4">
         <div>
@@ -85,11 +85,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>  }
 
   <div class="legal-footer">
     <div class="container">
-      <div class="grid grid-cols-6">
+      <div class="grid grid-cols-6 items-center">
         <p class="text-sm">
           <a href="#!">Sitemap</a>
         </p>
