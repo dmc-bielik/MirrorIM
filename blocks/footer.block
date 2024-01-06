@@ -89,7 +89,7 @@
 
   <div class="legal-footer">
     <div class="container">
-      <div class="grid grid-cols-6 items-center">
+      <div class="legal-footer-row items-center">
         <p class="text-sm">
           <a href="#!">Sitemap</a>
         </p>

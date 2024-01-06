@@ -28,7 +28,7 @@
         {.end}
 
           <div>
-            <a href="#!" class="button button-sm">Start for free</a>
+            <a href="/contact/" class="button button-sm">Contact us</a>
           </div>
       </ul>
     </div>
