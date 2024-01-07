@@ -1,5 +1,6 @@
-<section class="home-hero bg-black">
-  <div class="container">
+<section class="home-hero bg-black relative">
+  <img src="/assets/mirror-im-app-mobile-mockup.png" alt="mirror im mobile mockup app" class="absolute">
+  <div class="container relative">
     <h1 class="text-white">Motivation<br />Action<br />Success</h1>
   </div>
 </section>
@@ -18,14 +19,14 @@
         <a href="#!" class="button-white">Learn More</a>
       </div>
       <div>
-        <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard" class="home-tool-dashboard" />
+        <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard" class="home-tool-dashboard appear-on-scroll-1" />
       </div>
     </div>
-    <img src="/assets/mirror-im-mobile-goal-details.png" alt="mirror im mobile goal details" class="home-tool-goal block" />
+    <img src="/assets/mirror-im-mobile-goal-details.png" alt="mirror im mobile goal details" class="home-tool-goal block appear-on-scroll-1" />
   </div>
 </section>
 
-<section class="home-link">
+<section class="home-link appear-on-scroll-2">
   <div class="container">
     <p class="text-5xl text-center relative leading-tight text-grey">The missing link to ensuring<br />successful results for industries that rely<br />on retention as a business model</p>
   </div>
@@ -36,22 +37,22 @@
     <h2 class="text-5xl text-center text-grey font-medium">The Challenge</h2>
     <p class="text-center text-grey">Many organizations face significant hurdles</p>
     <div class="home-challenge-cards text-center text-white">
-      <div class="bg-blue">
+      <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/goals.png" alt="goals" width="110px">
         <h3>Low Retention and Uncompleted Goals</h3>
         <p>These are major obstacles that hinder maximizing revenue and profits.</p>
       </div>
-      <div class="bg-blue">
+      <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/resources.png" alt="resources" width="110px">
         <h3>Resource Wastage</h3>
         <p>Investments in support and incentives often miss the mark, becoming irrelevant and ineffective.</p>
       </div>
-      <div class="bg-blue">
+      <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/telescope.png" alt="telescope" width="80px">
         <h3>Lack of Engagement Forecasting</h3>
         <p>Organizations struggle to predict and motivate user engagement for successful goal completion.</p>
       </div>
-      <div class="bg-blue">
+      <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/motivation.png" alt="motivation" width="90px">
         <h3>Inability to Identify Intrinsic Motivators</h3>
         <p>There's a challenge in recognizing and leveraging what genuinely keeps users engaged at scale.</p>
@@ -68,7 +69,7 @@
     <h2 class="text-5xl text-center font-medium">The Solution</h2>
     <p class="text-center">MirrorIM introduces a revolutionary approach</p>
     <div class="home-solution-row items-center">
-      <div class="text-center">
+      <div class="text-center appear-on-scroll-4">
         <img src="/assets/ai-driven-user-support.png" alt="ai-driven user support" />
       </div>
       <div class="inline-block mx-auto">
@@ -81,12 +82,12 @@
         <h3>Data-Informed User Experience</h3>
         <p>Provides comprehensive data for administrators to forge deeper connections and craft effective interventions, ensuring users stay on track.</p>
       </div>
-      <div class="text-center">
+      <div class="text-center appear-on-scroll-4">
         <img src="/assets/data-informed-user-experience.png" alt="data-informed user experience" />
       </div>
     </div>
     <div class="home-solution-row items-center">
-      <div class="text-center">
+      <div class="text-center appear-on-scroll-4">
         <img src="/assets/goal-simplification.png" alt="goal simplification" />
       </div>
       <div class="inline-block mx-auto">
@@ -101,7 +102,7 @@
 </section>
 
 <section class="home-how">
-  <div class="container">
+  <div class="container appear-on-scroll-5">
     <h2 class="text-5xl font-medium">How MirrorIM Works</h2>
     <div class="home-how-row items-center">
       <div>
@@ -139,10 +140,10 @@
         <a href="#!" class="button">Know more</a>
       </div>
       <div class="relative">
-        <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone">
-        <img src="/assets/black-man-using-computer.png" alt="black man using computer">
-        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png" alt="muscular sportsman building biceps with dumbbell">
-        <img src="/assets/ella-olsson-ingredients.png" alt="ingredients">
+        <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone" class="appear-on-scroll-6">
+        <img src="/assets/black-man-using-computer.png" alt="black man using computer" class="appear-on-scroll-6">
+        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png" alt="muscular sportsman building biceps with dumbbell" class="appear-on-scroll-6">
+        <img src="/assets/ella-olsson-ingredients.png" alt="ingredients" class="appear-on-scroll-6">
       </div>
     </div>
   </div>
