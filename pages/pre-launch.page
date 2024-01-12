@@ -1,0 +1,17 @@
+<section class="pre-hero">
+  <div class="container">
+    <p>Thank you for your interest in the MirrorIM App! We're currently in the pre-public launch phase and thrilled
+      about the solution we're developing. To help us understand your interest and connect with you more effectively,
+      please select from the options below.</p>
+  </div>
+</section>
+
+<section class="pre-options">
+  <div class="container">
+    <h2>Are You interested to be a Product User or a Potential Investor?</h2>
+    <div>
+      <a href="/pre-launch/user">Product User</a>
+      <a href="/pre-launch/investor">Potential Investor</a>
+    </div>
+  </div>
+</section>
