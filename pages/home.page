@@ -16,7 +16,7 @@
           <h2 class="text-5xl leading-tight">The Essential Tool for Retention-Driven Industries</h2>
           <p class="my-7">MirrorIM bridges the gap in achieving consistent, successful results for businesses that thrive on customer retention. This innovative platform empowers organizations to craft tailored environments, shaping user experiences to align with key engagement, pace, and retention goals. Transform the journey of your customers with MirrorIM, driving conversions, bolstering retention, and enhancing forecasting accuracy.</p>
         </div>
-        <a href="#!" class="button-white">Learn More</a>
+        <a href="/contact/" class="button-white">Learn More</a>
       </div>
       <div>
         <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard" class="home-tool-dashboard appear-on-scroll-1" />
@@ -59,7 +59,7 @@
       </div>
     </div>
     <div class="home-challenge-cta text-center">
-      <a href="#!" class="button">Contact Us</a>
+      <a href="/contact/" class="button">Contact Us</a>
     </div>
   </div>
 </section>
@@ -96,7 +96,7 @@
       </div>
     </div>
     <div class="home-challenge-cta text-center">
-      <a href="#!" class="button-white">Learn More</a>
+      <a href="/contact/" class="button-white">Learn More</a>
     </div>
   </div>
 </section>
@@ -121,7 +121,7 @@
           <p>Each user journey is distinct, tailored to utilize the content uploaded by the user, ensuring maximum motivation and engagement.</p>
         </div>
         <div class="home-how-cta">
-          <a href="#!" class="button">Contact Us</a>
+          <a href="/contact/" class="button">Contact Us</a>
         </div>
       </div>
       <div>
@@ -137,7 +137,7 @@
       <div>
         <img src="/assets/mirror-im-logo.svg" width="180" alt="mirror im">
         <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal realization</h2>
-        <a href="#!" class="button">Know more</a>
+        <a href="/contact/" class="button">Learn more</a>
       </div>
       <div class="relative">
         <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone" class="appear-on-scroll-6">
