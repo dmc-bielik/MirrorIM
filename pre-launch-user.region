@@ -23,18 +23,28 @@
     <main class="content-container" role="main" data-content-field="main-content">
       <section class="pre-hero">
         <div class="container">
-          <p>Thank you for your interest in the MirrorIM App! We're currently in the pre-public launch phase and thrilled
+          <p class="text-center text-white">Thank you for your interest in the MirrorIM App! We're currently in the pre-public launch phase and thrilled
             about the solution we're developing. To help us understand your interest and connect with you more effectively,
             please select from the options below.</p>
         </div>
       </section>
 
-      <section class="pre-options">
+      <section class="pre-options text-center">
         <div class="container">
           <h2>Are You interested to be a Product User or a Potential Investor?</h2>
-          <div>
-            <a href="/pre-launch/user">Product User</a>
-            <a href="/pre-launch/investor">Potential Investor</a>
+          <div class="pre-options-row grid grid-cols-2">
+            <a href="/pre-launch-user" class="pre-options-active">
+              <span class="pre-options-img flex items-center justify-center">
+                <img src="/assets/potential-user-white.svg" alt="user">
+              </span>
+              <span class="pre-options-label">Product<br>User</span>
+            </a>
+            <a href="/pre-launch-investor">
+              <span class="pre-options-img flex items-center justify-center">
+                <img src="/assets/potential-investor.svg" alt="investor">
+              </span>
+              <span class="pre-options-label">Potential<br>Investor</span>
+            </a>
           </div>
         </div>
       </section>
