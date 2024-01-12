@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
+    <!-- include system scripts, page meta, and header code injection -->
+    {squarespace-headers}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  </head>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
+
+    <header class="site-header">
+      <!-- site navigation -->
+      <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+    </header>
+
+    <!-- cms content injection point -->
+    <main class="content-container" role="main" data-content-field="main-content">
+      <section class="pre-hero">
+        <div class="container">
+          <p>Thank you for your interest in the MirrorIM App! We're currently in the pre-public launch phase and thrilled
+            about the solution we're developing. To help us understand your interest and connect with you more effectively,
+            please select from the options below.</p>
+        </div>
+      </section>
+
+      <section class="pre-options">
+        <div class="container">
+          <h2>Are You interested to be a Product User or a Potential Investor?</h2>
+          <div>
+            <a href="/pre-launch/user">Product User</a>
+            <a href="/pre-launch/investor">Potential Investor</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-form">
+        <div class="container">
+          {squarespace.main-content}
+        </div>
+      </section>
+    </main>
+
+    <!--Footer with open block field -->
+    <footer class="site-footer" style="display:none;">
+      <squarespace:block-field id="footerBlocks" columns="12" />
+    </footer>
+
+    {@|apply footer.block}
+
+    <!-- combo and minify scripts when not logged in -->
+    <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
+
+    <!-- other scripts, and footer code injection -->
+    {squarespace-footers}
+
+  </body>
+</html>
