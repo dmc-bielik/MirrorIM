@@ -35,7 +35,7 @@
           <div class="pre-options-row grid grid-cols-2">
             <a href="/pre-launch-user" class="pre-options-active">
               <span class="pre-options-img flex items-center justify-center">
-                <img src="/assets/potential-user-white.svg" alt="user">
+                <img src="/assets/potential-user-white-1.svg" alt="user">
               </span>
               <span class="pre-options-label">Product<br>User</span>
             </a>
