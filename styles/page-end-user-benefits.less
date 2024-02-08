@@ -1,0 +1,147 @@
+.end-user {
+  &-hero {
+    padding: 50px 0 100px;
+
+    .container {
+      max-width: 1140px;
+    }
+
+    p {
+      max-width: 420px;
+    }
+
+    h1 {
+      margin-top: 50px;
+      max-width: 500px;
+    }
+  }
+
+  &-approach {
+    padding: 100px 0;
+
+    .container {
+      max-width: 1000px;
+    }
+
+    .grid {
+      margin: 130px 0;
+      gap: 50px;
+
+      img {
+        width: 350px;
+      }
+
+      p {
+        max-width: 400px;
+      }
+    }
+  }
+
+  &-tools {
+    .grid {
+      margin: 50px 0;
+
+      img {
+        width: 450px;
+      }
+    }
+  }
+
+  &-loop {
+    padding: 50px 0 100px;
+
+    .container {
+      max-width: 1060px;
+    }
+
+    .flex {
+      margin: 30px 0;
+      border: 2px solid @blue;
+      border-radius: 8px;
+      gap: 120px;
+      padding: 40px 100px;
+
+      &:nth-of-type(1) {
+        border-color: #FFAA00;
+      }
+
+      img {
+        width: 160px;
+      }
+    }
+
+    &-with {
+      font-size: 18px;
+      max-width: 600px;
+    }
+  }
+
+  &-benefits {
+    padding: 100px 0;
+
+    .container {
+      max-width: 1140px;
+    }
+
+    h2 {
+      margin-bottom: 50px;
+    }
+
+    &-question {
+      padding: 20px 8px;
+      border-bottom: 1px solid white;
+
+      button {
+        background-color: transparent;
+        background: transparent;
+        box-shadow: none;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 22px;
+        width: 100%;
+
+        span {
+          &:last-child {
+            &::before {
+              content: '+';
+            }
+          }
+        }
+      }
+
+      div {
+        max-height: 0;
+        height: auto;
+        overflow: hidden;
+      }
+
+      &-expanded {
+        div {
+          max-height: max-content;
+          margin-top: 10px;
+        }
+
+        button {
+          span {
+            &:last-child {
+              &::before {
+                content: '-';
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-prefooter {
+    padding: 70px 0;
+
+    p {
+      max-width: 600px;
+      margin: auto;
+      font-size: 22px;
+    }
+  }
+}

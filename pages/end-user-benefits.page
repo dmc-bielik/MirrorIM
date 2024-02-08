@@ -1,0 +1,238 @@
+<section class="end-user-hero">
+  <div class="container">
+    <div class="grid grid-cols-2">
+      <div>
+        <h1 class="text-5xl">How MirrorIM Empowers Users to Achieve Their Goals</h1>
+        <p>MirrorIM is designed to help users envision and embody the future they aspire to. By fostering an emotional
+          connection with their future selves, our tool keeps users engaged and excited, encouraging them to elevate
+          their state of being.</p>
+      </div>
+      <div>
+        <img src="/assets/achieve-goals-maze.png" alt="achieve-goals-maze">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="end-user-approach bg-blue text-white">
+  <div class="container">
+    <h2 class="text-center text-5xl">Transformative Approach</h2>
+    <div class="grid grid-cols-2 items-center">
+      <div>
+        <h3 class="font-semibold">Visioning the Future</h3>
+        <p>We guide users to vividly feel their future, creating a sense of accomplishment as if their goals have
+          already
+          been achieved. This process is anchored in the mission of their envisioned future.</p>
+      </div>
+      <div class="text-center">
+        <img src="/assets/visioning-the-future.png" alt="visioning-the-future">
+      </div>
+    </div>
+    <div class="grid grid-cols-2 items-center">
+      <div class="text-center">
+        <img src="/assets/breaking-patterns.png" alt="breaking-patterns">
+      </div>
+      <div>
+        <h3 class="font-semibold">Breaking Patterns</h3>
+        <p>Our approach helps users break free from past choices that may have held them back, allowing them to focus on
+          a narrative that leads to their desired future.</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 items-center">
+      <div>
+        <h3 class="font-semibold">Decision Making</h3>
+        <p>MirrorIM assists users in making resolute decisions with positive intentions, aligning their emotions with
+          actions, and getting a taste of their future successes.</p>
+      </div>
+      <div class="text-center">
+        <img src="/assets/decision-making.png" alt="decision-making">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="end-user-approach end-user-tools">
+  <div class="container">
+    <h2 class="text-5xl text-center">Positive Reinforcement Tools</h2>
+    <div class="grid grid-cols-2 items-center">
+      <div class="text-center">
+        <img src="/assets/multimedia-content.png" alt="multimedia-content">
+      </div>
+      <div>
+        <h3 class="font-semibold">Multimedia Content</h3>
+        <p>We utilize a variety of content forms, including videos, images, and audio, to maintain positive focus and
+          inspire action.</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-2 items-center">
+      <div>
+        <h3 class="font-semibold">Insightful Guidance</h3>
+        <p>Our tool provides insights on how to enact positive changes, fostering a belief in users that they are the
+          architects of their own lives. It encourages users to take ownership and responsibility for their actions.</p>
+      </div>
+      <div class="text-center">
+        <img src="/assets/insightful-guidance.png" alt="insightful-guidance">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="end-user-loop">
+  <div class="container">
+    <h2 class="text-5xl text-center">Creating a Positive Feedback Loop</h2>
+    <div class="flex items-center">
+      <img src="/assets/optimistic.svg" alt="optimistic">
+      <div>
+        <h3 class="font-semibold">Intentionality and Results</h3>
+        <p>MirrorIM encourages users to let their positive personality traits lead to positive outcomes.</p>
+      </div>
+    </div>
+    <div class="flex items-center">
+      <img src="/assets/moody.svg" alt="moody">
+      <div>
+        <h3 class="font-semibold">Behavioral and Emotional Tracking</h3>
+        <p>The solution captures and organizes user behaviors and emotions, enhancing consciousness and connecting
+          beliefs, thoughts, feelings, and behaviors. This creates a momentum that consistently yields positive results
+          in everyday actions.</p>
+      </div>
+    </div>
+    <p class="text-center end-user-loop-with mx-auto">With MirrorIM, step into a world where your aspirations are not
+      just
+      dreams, but a future you
+      can feel, shape,
+      and achieve.</p>
+  </div>
+</section>
+
+<section class="end-user-benefits bg-blue text-white">
+  <div class="container">
+    <h2 class="text-5xl text-center">Key Benefits of MirrorIM for End Users</h2>
+
+    <div class="end-user-benefits-question end-user-benefits-question-expanded">
+      <button type="button" class="flex items-center justify-between">
+        <span>1: Enhanced Goal Achievement:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>2: Improved Productivity:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>3: Personalized Experience:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>4: Increased Motivation:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>5: Data-Driven Insights:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>6: Emotional and Behavioral Support:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>7: Enhanced Self-Awareness:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>8: Community and Support:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>9: Accessibility and Convenience:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+
+    <div class="end-user-benefits-question">
+      <button type="button" class="flex items-center justify-between">
+        <span>10: Long-Term Benefits:</span>
+        <span></span>
+      </button>
+      <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque explicabo voluptates suscipit deleniti sunt!
+        Corrupti nisi beatae deleniti rem praesentium alias, minus porro consequuntur labore amet rerum repellat
+        incidunt quaerat architecto eum. Consequuntur a labore odit veritatis officia, ab saepe nesciunt exercitationem
+        aliquid natus tempora distinctio minus doloremque provident minima.</div>
+    </div>
+  </div>
+</section>
+
+<section class="end-user-prefooter">
+  <div class="container">
+    <p class="text-center">MirrorIM is more than a tool; it's a companion in your journey towards realizing your full
+      potential.</p>
+  </div>
+</section>
+
+<script>
+  const endUserBenefitsQuestions = document.querySelectorAll('.end-user-benefits-question button');
+
+  endUserBenefitsQuestions.forEach(question => {
+    question.addEventListener('click', () => {
+      question.parentElement.classList.toggle('end-user-benefits-question-expanded');
+    });
+  });
+</script>
