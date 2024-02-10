@@ -2,6 +2,10 @@
   &-hero {
     padding: 50px 0;
 
+    @media (max-width: 767px) {
+      padding-top: 0;
+    }
+
     .container {
       max-width: 1140px;
     }
@@ -14,6 +18,21 @@
           padding-top: 50px;
         }
       }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: center !important;
+
+        img {
+          max-width: 450px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        img {
+          max-width: 100%;
+        }
+      }
     }
   }
 
@@ -24,6 +43,29 @@
     .home-tool-triangle-2 {
       border-width: 200px 0 0 50vw;
     }
+
+    @media (max-width: 979px) {
+      .home-tool-row {
+        padding-bottom: 40px;
+      }
+    }
+
+    @media (max-width: 767px) {
+      img {
+        max-width: 450px;
+      }
+
+      .home-tool-triangle-1,
+      .home-tool-triangle-2 {
+        border-width: 120px 0 0 50vw;
+      }
+    }
+
+    @media (max-width: 480px) {
+      img {
+        max-width: 100%;
+      }
+    }
   }
 
   &-target {
@@ -33,6 +75,22 @@
       & > div {
         &:last-child {
           padding-top: 50px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+
+      @media (max-width: 767px) {
+        img {
+          max-width: 450px;
+        }
+      }
+  
+      @media (max-width: 480px) {
+        img {
+          max-width: 100%;
         }
       }
     }
