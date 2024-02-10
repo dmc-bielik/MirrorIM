@@ -274,6 +274,27 @@
       img {
         width: 600px;
       }
+
+      &-first {
+        margin: 100px 0;
+        gap: 10px;
+
+        @media (max-width: 767px) {
+          display: flex;
+          flex-direction: column-reverse;
+
+          img {
+            max-width: 450px;
+          }
+        }
+
+        p {
+          margin-top: 20px;
+          margin-bottom: 50px;
+          font-size: 18px;
+          max-width: 440px;
+        }
+      }
     }
   }
 
@@ -282,15 +303,6 @@
 
     .container {
       max-width: 1140px;
-    }
-
-    img {
-      max-width: 116%;
-
-      @media (max-width: 767px) {
-        max-width: 100%;
-        width: 550px;
-      }
     }
 
     hr {
@@ -303,26 +315,61 @@
       margin-bottom: 60px;
     }
 
+    p {
+      font-size: 14px;
+      max-width: 480px;
+    }
+
     &-row {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 30px;
+      margin-top: 100px;
 
       @media (max-width: 767px) {
         display: flex;
         flex-direction: column-reverse;
         gap: 30px;
       }
+
+      img {
+        max-width: 116%;
+  
+        @media (max-width: 767px) {
+          max-width: 100%;
+          width: 550px;
+        }
+      }
+
+      &-first {
+        @media (max-width: 767px) {
+          display: flex;
+          flex-direction: column-reverse;
+          align-items: baseline;
+          gap: 50px;
+
+          img {
+            max-width: 450px;
+          }
+
+          .button {
+            margin-top: 20px;
+          }
+
+          h2 {
+            margin-bottom: 20px;
+          }
+        }
+
+        .button {
+          margin-top: 50px;
+        }
+      }
     }
 
     &-detail {
       h3 {
         margin-bottom: 20px;
-      }
-
-      p {
-        font-size: 14px;
-        max-width: 480px;
       }
     }
 
@@ -418,6 +465,54 @@
                 top: 15vw;
               }
             }
+          }
+        }
+      }
+    }
+  }
+
+  &-founder {
+    padding: 0 0 100px;
+
+    .container {
+      max-width: 1140px;
+    }
+
+    .grid {
+      gap: 50px;
+
+      @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+
+        img {
+          max-width: 450px;
+        }
+
+        h2 {
+          margin: 0;
+        }
+      }
+
+      & > div {
+        &:last-child {
+          h2,
+          h3,
+          p {
+            max-width: 440px;
+          }
+
+          h2 {
+            margin-top: 50px;
+            margin-bottom: 50px;
+
+            @media (max-width: 767px) {
+              margin-top: 0;
+              margin-bottom: 30px;
+            }
+          }
+
+          p {
+            margin-bottom: 50px;
           }
         }
       }

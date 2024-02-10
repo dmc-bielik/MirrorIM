@@ -14,21 +14,28 @@
       <div>
         <div class="max-w-lg">
           <h2 class="text-5xl leading-tight">The Essential Tool for Retention-Driven Industries</h2>
-          <p class="my-7">MirrorIM bridges the gap in achieving consistent, successful results for businesses that thrive on customer retention. This innovative platform empowers organizations to craft tailored environments, shaping user experiences to align with key engagement, pace, and retention goals. Transform the journey of your customers with MirrorIM, driving conversions, bolstering retention, and enhancing forecasting accuracy.</p>
+          <p class="my-7">MirrorIM bridges the gap in achieving consistent, successful results for businesses that
+            thrive on customer retention. This innovative platform empowers organizations to craft tailored
+            environments, shaping user experiences to align with key engagement, pace, and retention goals. Transform
+            the journey of your customers with MirrorIM, driving conversions, bolstering retention, and enhancing
+            forecasting accuracy.</p>
         </div>
         <a href="/contact/" class="button-white">Learn More</a>
       </div>
       <div>
-        <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard" class="home-tool-dashboard appear-on-scroll-1" />
+        <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard"
+          class="home-tool-dashboard appear-on-scroll-1" />
       </div>
     </div>
-    <img src="/assets/mirror-im-mobile-goal-details.png" alt="mirror im mobile goal details" class="home-tool-goal block appear-on-scroll-1" />
+    <img src="/assets/mirror-im-mobile-goal-details.png" alt="mirror im mobile goal details"
+      class="home-tool-goal block appear-on-scroll-1" />
   </div>
 </section>
 
 <section class="home-link appear-on-scroll-2">
   <div class="container">
-    <p class="text-5xl text-center relative leading-tight text-grey">The missing link to ensuring<br />successful results for industries that rely<br />on retention as a business model</p>
+    <p class="text-5xl text-center relative leading-tight text-grey">The missing link to ensuring<br />successful
+      results for industries that rely<br />on retention as a business model</p>
   </div>
 </section>
 
@@ -68,19 +75,31 @@
   <div class="container">
     <h2 class="text-5xl text-center font-medium">The Solution</h2>
     <p class="text-center">MirrorIM introduces a revolutionary approach</p>
+    <div class="home-solution-row-first grid grid-cols-2 items-center">
+      <div>
+        <h2 class="text-5xl">The AI B2B solution revolutionizing retention in education.</h2>
+        <p>It's built for those in charge of student success, engagement, and goal achievement.</p>
+        <a href="/contact/" class="button-white">Learn More</a>
+      </div>
+      <div class="text-center">
+        <img src="/assets/revolutionizing-retention-education.png" alt="revolutionizing-retention-education">
+      </div>
+    </div>
     <div class="home-solution-row items-center">
       <div class="text-center appear-on-scroll-4">
         <img src="/assets/ai-driven-user-support.png" alt="ai-driven user support" />
       </div>
       <div class="inline-block mx-auto">
         <h3>AI-Driven User Support</h3>
-        <p>Utilizes advanced AI to encourage positive behavior in real-time, spurring users towards productivity and goal completion.</p>
+        <p>Utilizes advanced AI to encourage positive behavior in real-time, spurring users towards productivity and
+          goal completion.</p>
       </div>
     </div>
     <div class="home-solution-row home-solution-row-mid items-center">
       <div class="inline-block mx-auto">
         <h3>Data-Informed User Experience</h3>
-        <p>Provides comprehensive data for administrators to forge deeper connections and craft effective interventions, ensuring users stay on track.</p>
+        <p>Provides comprehensive data for administrators to forge deeper connections and craft effective interventions,
+          ensuring users stay on track.</p>
       </div>
       <div class="text-center appear-on-scroll-4">
         <img src="/assets/data-informed-user-experience.png" alt="data-informed user experience" />
@@ -92,7 +111,8 @@
       </div>
       <div class="inline-block mx-auto">
         <h3>Goal Simplification</h3>
-        <p>Assists users in achieving success by breaking down ambitious goals into manageable tasks, encouraging perseverance amid challenges.</p>
+        <p>Assists users in achieving success by breaking down ambitious goals into manageable tasks, encouraging
+          perseverance amid challenges.</p>
       </div>
     </div>
     <div class="home-challenge-cta text-center">
@@ -103,22 +123,36 @@
 
 <section class="home-how">
   <div class="container appear-on-scroll-5">
-    <h2 class="text-5xl font-medium">How MirrorIM Works</h2>
+    <div class="home-how-row-first grid grid-cols-2 items-center">
+      <div>
+        <h2 class="text-5xl font-medium">How MirrorIM Works</h2>
+        <h3 class="font-semibold">Visioning the Future</h3>
+        <p>We guide users to vividly feel their future, creating a sense of accomplishment as if their goals have
+          already been achieved. This process is anchored in the mission of their envisioned future.</p>
+        <a href="/contact/" class="button">Learn More</a>
+      </div>
+      <div class="text-center">
+        <img src="/assets/visioning-future.png" alt="visioning-future">
+      </div>
+    </div>
     <div class="home-how-row items-center">
       <div>
         <div class="home-how-detail">
           <h3 class="font-semibold">Behavior-Driven Insights</h3>
-          <p>Leverages insights based on user behavior to prompt timely accountability, interventions, and resource allocation, aiding users in surmounting hurdles.</p>
+          <p>Leverages insights based on user behavior to prompt timely accountability, interventions, and resource
+            allocation, aiding users in surmounting hurdles.</p>
         </div>
         <hr />
         <div class="home-how-detail">
           <h3 class="font-semibold">Intrinsic Motivation Utilization</h3>
-          <p>Employs motivational tools such as images, videos, and audio clips, integrated into a user’s calendar as events, tasks, and goals, to drive task completion.</p>
+          <p>Employs motivational tools such as images, videos, and audio clips, integrated into a user’s calendar as
+            events, tasks, and goals, to drive task completion.</p>
         </div>
         <hr />
         <div class="home-how-detail">
           <h3 class="font-semibold">Personalized User Experiences</h3>
-          <p>Each user journey is distinct, tailored to utilize the content uploaded by the user, ensuring maximum motivation and engagement.</p>
+          <p>Each user journey is distinct, tailored to utilize the content uploaded by the user, ensuring maximum
+            motivation and engagement.</p>
         </div>
         <div class="home-how-cta">
           <a href="/contact/" class="button">Contact Us</a>
@@ -136,14 +170,35 @@
     <div class="home-catalyst-row">
       <div>
         <img src="/assets/mirror-im-logo.svg" width="180" alt="mirror im">
-        <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal realization</h2>
+        <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal realization
+        </h2>
         <a href="/contact/" class="button">Learn more</a>
       </div>
       <div class="relative">
-        <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone" class="appear-on-scroll-6">
+        <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone"
+          class="appear-on-scroll-6">
         <img src="/assets/black-man-using-computer.png" alt="black man using computer" class="appear-on-scroll-6">
-        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png" alt="muscular sportsman building biceps with dumbbell" class="appear-on-scroll-6">
+        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png"
+          alt="muscular sportsman building biceps with dumbbell" class="appear-on-scroll-6">
         <img src="/assets/ella-olsson-ingredients.png" alt="ingredients" class="appear-on-scroll-6">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-founder">
+  <div class="container">
+    <div class="grid grid-cols-2 items-center">
+      <div class="text-center">
+        <img src="/assets/mirrorim-founder-deo.png" alt="mirror im founder deo mwano">
+      </div>
+      <div>
+        <h2 class="text-5xl font-medium">Founder Behind MirrorIM</h2>
+        <h3 class="font-semibold">The Genesis of MirrorIM</h3>
+        <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency education
+          organization focusing on blue-collar workers overlooked by traditional higher education. Deo was instrumental
+          in the founding team, developing a coaching model for student success.</p>
+        <a href="/contact/" class="button">Learn More</a>
       </div>
     </div>
   </div>
