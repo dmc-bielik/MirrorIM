@@ -17,59 +17,54 @@
 <section class="founder-journey">
   <div class="container">
     <h2 class="text-5xl text-center">Professional Journey</h2>
-    <div class="flex founder-journey-timeline">
+    <div class="founder-journey-timeline">
       <div>
-        <div>
-          <h3 class="font-semibold">Diverse Industry Experience</h3>
-          <p>Deo brings a wealth of experience from diverse sectors such as education, technology, business, and
-            personal development, having contributed to several startups. Notably, he served as a Community Manager at
-            an EdTech startup, collaborating with educational institutions both domestically and internationally to
-            bridge the skill gaps among blue-collar workers. Later, as a Program Manager at an IoT Security/Management
-            startup, Deo spearheaded customer pilot programs, playing a crucial role in product refinement and market
-            strategy development. Upon product launch, he thrived as the Director of Customer Success, guaranteeing
-            smooth adoption and implementation of the company's solutions across various departments.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold">Educational Technology Expertise</h3>
-          <p>Deo's earlier roles include Manager of Community Engagement at an EdTech company, where he developed
-            learning success strategies for K-12 and university institutions. His insights into learning behaviors and
-            goals significantly influenced the company's educational solutions.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold">Extensive Student Engagement</h3>
-          <p>Collaborating with partners like McDonald's, Panera, Conagra Food Services, Dunkin' Donuts, UPS, and
-            Sodexo, Deo gained profound insights into Employees/student behavior and goal achievement, supporting over
-            5,000 students.</p>
-        </div>
+        <h3 class="font-semibold">Diverse Industry Experience</h3>
+        <p>Deo brings a wealth of experience from diverse sectors such as education, technology, business, and
+          personal development, having contributed to several startups. Notably, he served as a Community Manager at
+          an EdTech startup, collaborating with educational institutions both domestically and internationally to
+          bridge the skill gaps among blue-collar workers. Later, as a Program Manager at an IoT Security/Management
+          startup, Deo spearheaded customer pilot programs, playing a crucial role in product refinement and market
+          strategy development. Upon product launch, he thrived as the Director of Customer Success, guaranteeing
+          smooth adoption and implementation of the company's solutions across various departments.</p>
       </div>
-      <div></div>
       <div>
-        <div>
-          <h3 class="font-semibold">Consultancy Firm Leadership</h3>
-          <p>For the last five years, Deo has been at the helm of Deo Mwano Consultancy (DMC), steering it as a
-            full-time venture. Under his leadership, a formidable team of data scientists, organizational development
-            coaches, solutions architects, and program designers has been assembled. This team is dedicated to helping
-            organizations across the nation enhance their culture and forge stronger connections with underserved
-            communities, aiming to amplify their positive impact. DMC has collaborated with prestigious institutions and
-            organizations, including Dartmouth College's Campus Services Department, the Department of Health and Human
-            Services of the State of Maine, and companies such as Peabody Properties LLC in Boston. The consultancy has
-            also partnered with a wide range of schools, from Phillips Exeter Academy to school districts in Tucson,
-            Arizona. DMC specializes in both qualitative and quantitative data research to pinpoint opportunities for
-            positive change. By creating and piloting solutions with various partners, the consultancy aims to transform
-            organizations and businesses in a positive way, with sustainable models that produce measurable,
-            long-lasting impacts.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold">The Genesis of MirrorIM</h3>
-          <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency
-            education organization focusing on blue-collar workers overlooked by traditional higher education. Deo was
-            instrumental in the founding team, developing a coaching model for student success.</p>
-        </div>
-        <div>
-          <h3 class="font-semibold">Technological Integration</h3>
-          <p>Working closely with the internal tech team, Deo recognized the potential of technology to replicate the
-            manual coaching efforts, aiding student success.</p>
-        </div>
+        <h3 class="font-semibold">Educational Technology Expertise</h3>
+        <p>Deo's earlier roles include Manager of Community Engagement at an EdTech company, where he developed
+          learning success strategies for K-12 and university institutions. His insights into learning behaviors and
+          goals significantly influenced the company's educational solutions.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Extensive Student Engagement</h3>
+        <p>Collaborating with partners like McDonald's, Panera, Conagra Food Services, Dunkin' Donuts, UPS, and
+          Sodexo, Deo gained profound insights into Employees/student behavior and goal achievement, supporting over
+          5,000 students.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Consultancy Firm Leadership</h3>
+        <p>For the last five years, Deo has been at the helm of Deo Mwano Consultancy (DMC), steering it as a
+          full-time venture. Under his leadership, a formidable team of data scientists, organizational development
+          coaches, solutions architects, and program designers has been assembled. This team is dedicated to helping
+          organizations across the nation enhance their culture and forge stronger connections with underserved
+          communities, aiming to amplify their positive impact. DMC has collaborated with prestigious institutions and
+          organizations, including Dartmouth College's Campus Services Department, the Department of Health and Human
+          Services of the State of Maine, and companies such as Peabody Properties LLC in Boston. The consultancy has
+          also partnered with a wide range of schools, from Phillips Exeter Academy to school districts in Tucson,
+          Arizona. DMC specializes in both qualitative and quantitative data research to pinpoint opportunities for
+          positive change. By creating and piloting solutions with various partners, the consultancy aims to transform
+          organizations and businesses in a positive way, with sustainable models that produce measurable,
+          long-lasting impacts.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">The Genesis of MirrorIM</h3>
+        <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency
+          education organization focusing on blue-collar workers overlooked by traditional higher education. Deo was
+          instrumental in the founding team, developing a coaching model for student success.</p>
+      </div>
+      <div>
+        <h3 class="font-semibold">Technological Integration</h3>
+        <p>Working closely with the internal tech team, Deo recognized the potential of technology to replicate the
+          manual coaching efforts, aiding student success.</p>
       </div>
     </div>
   </div>
