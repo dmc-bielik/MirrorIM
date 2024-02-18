@@ -65,9 +65,9 @@
         <p>There's a challenge in recognizing and leveraging what genuinely keeps users engaged at scale.</p>
       </div>
     </div>
-    <div class="home-challenge-cta text-center">
+    {#  <div class="home-challenge-cta text-center">
       <a href="/contact/" class="button">Contact Us</a>
-    </div>
+    </div>  }
   </div>
 </section>
 
@@ -79,7 +79,7 @@
       <div>
         <h2 class="text-5xl">The AI B2B solution revolutionizing retention in education.</h2>
         <p>It's built for those in charge of student success, engagement, and goal achievement.</p>
-        <a href="/contact/" class="button-white">Learn More</a>
+        <a href="/b2b-solutions/" class="button-white">Learn More</a>
       </div>
       <div class="text-center">
         <img src="/assets/revolutionizing-retention-education.png" alt="revolutionizing-retention-education">
@@ -115,9 +115,9 @@
           perseverance amid challenges.</p>
       </div>
     </div>
-    <div class="home-challenge-cta text-center">
+    {#  <div class="home-challenge-cta text-center">
       <a href="/contact/" class="button-white">Learn More</a>
-    </div>
+    </div>  }
   </div>
 </section>
 
@@ -129,7 +129,7 @@
         <h3 class="font-semibold">Visioning the Future</h3>
         <p>We guide users to vividly feel their future, creating a sense of accomplishment as if their goals have
           already been achieved. This process is anchored in the mission of their envisioned future.</p>
-        <a href="/contact/" class="button">Learn More</a>
+        <a href="/end-user-benefits/" class="button">Learn More</a>
       </div>
       <div class="text-center">
         <img src="/assets/visioning-future.png" alt="visioning-future">
@@ -154,9 +154,9 @@
           <p>Each user journey is distinct, tailored to utilize the content uploaded by the user, ensuring maximum
             motivation and engagement.</p>
         </div>
-        <div class="home-how-cta">
+        {#  <div class="home-how-cta">
           <a href="/contact/" class="button">Contact Us</a>
-        </div>
+        </div>  }
       </div>
       <div>
         <img src="/assets/how-mirror-im-works.png" alt="how mirror-im works" />
@@ -172,7 +172,7 @@
         <img src="/assets/mirror-im-logo.svg" width="180" alt="mirror im">
         <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal realization
         </h2>
-        <a href="/contact/" class="button">Learn more</a>
+        {#  <a href="/contact/" class="button">Learn more</a>  }
       </div>
       <div class="relative">
         <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone"
@@ -198,7 +198,7 @@
         <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency education
           organization focusing on blue-collar workers overlooked by traditional higher education. Deo was instrumental
           in the founding team, developing a coaching model for student success.</p>
-        <a href="/contact/" class="button">Learn More</a>
+        <a href="/founder/" class="button">Learn More</a>
       </div>
     </div>
   </div>

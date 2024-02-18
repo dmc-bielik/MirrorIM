@@ -35,6 +35,10 @@
       .pre-options-img {
         background-color: @blue;
         border-color: @blue;
+
+        &:hover {
+          background-color: darken(@blue, 5%);
+        }
       }
     }
 
@@ -45,6 +49,11 @@
       border: 1px solid @grey;
       border-radius: 12px;
       margin: 0 auto;
+      transition: all 0.3s;
+
+      &:hover {
+        background-color: rgba(0,0,0,0.05);
+      }
 
       img {
         width: 110px;

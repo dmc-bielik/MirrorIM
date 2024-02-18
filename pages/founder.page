@@ -23,10 +23,13 @@
         <p>Deo brings a wealth of experience from diverse sectors such as education, technology, business, and
           personal development, having contributed to several startups. Notably, he served as a Community Manager at
           an EdTech startup, collaborating with educational institutions both domestically and internationally to
-          bridge the skill gaps among blue-collar workers. Later, as a Program Manager at an IoT Security/Management
-          startup, Deo spearheaded customer pilot programs, playing a crucial role in product refinement and market
-          strategy development. Upon product launch, he thrived as the Director of Customer Success, guaranteeing
-          smooth adoption and implementation of the company's solutions across various departments.</p>
+          bridge the skill gaps among blue-collar workers. <span class="hidden">Later, as a Program Manager at an IoT
+            Security/Management
+            startup, Deo spearheaded customer pilot programs, playing a crucial role in product refinement and market
+            strategy development. Upon product launch, he thrived as the Director of Customer Success, guaranteeing
+            smooth adoption and implementation of the company's solutions across various departments.</span>
+        </p>
+        <button type="button">Read More</button>
       </div>
       <div>
         <h3 class="font-semibold">Educational Technology Expertise</h3>
@@ -44,16 +47,19 @@
         <h3 class="font-semibold">Consultancy Firm Leadership</h3>
         <p>For the last five years, Deo has been at the helm of Deo Mwano Consultancy (DMC), steering it as a
           full-time venture. Under his leadership, a formidable team of data scientists, organizational development
-          coaches, solutions architects, and program designers has been assembled. This team is dedicated to helping
-          organizations across the nation enhance their culture and forge stronger connections with underserved
-          communities, aiming to amplify their positive impact. DMC has collaborated with prestigious institutions and
-          organizations, including Dartmouth College's Campus Services Department, the Department of Health and Human
-          Services of the State of Maine, and companies such as Peabody Properties LLC in Boston. The consultancy has
-          also partnered with a wide range of schools, from Phillips Exeter Academy to school districts in Tucson,
-          Arizona. DMC specializes in both qualitative and quantitative data research to pinpoint opportunities for
-          positive change. By creating and piloting solutions with various partners, the consultancy aims to transform
-          organizations and businesses in a positive way, with sustainable models that produce measurable,
-          long-lasting impacts.</p>
+          coaches, solutions architects, and program designers has been assembled. <span class="hidden">This team is
+            dedicated to helping organizations across the nation enhance their culture and forge stronger connections
+            with underserved
+            communities, aiming to amplify their positive impact. DMC has collaborated with prestigious institutions and
+            organizations, including Dartmouth College's Campus Services Department, the Department of Health and Human
+            Services of the State of Maine, and companies such as Peabody Properties LLC in Boston. The consultancy has
+            also partnered with a wide range of schools, from Phillips Exeter Academy to school districts in Tucson,
+            Arizona. DMC specializes in both qualitative and quantitative data research to pinpoint opportunities for
+            positive change. By creating and piloting solutions with various partners, the consultancy aims to transform
+            organizations and businesses in a positive way, with sustainable models that produce measurable,
+            long-lasting impacts.</span>
+        </p>
+        <button type="button">Read More</button>
       </div>
       <div>
         <h3 class="font-semibold">The Genesis of MirrorIM</h3>
@@ -106,3 +112,14 @@
     </div>
   </div>
 </section>
+
+<script>
+  const buttons = document.querySelectorAll('.founder-journey-timeline button');
+
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      button.parentElement.classList.toggle('expanded');
+      button.parentElement.classList.contains('expanded') ? button.textContent = 'Read Less' : button.textContent = 'Read More';
+    });
+  });
+</script>
