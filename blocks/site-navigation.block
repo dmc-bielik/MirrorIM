@@ -7,30 +7,50 @@
         </a>
       </div>
 
-      <div class="flex items-center justify-end">
+      <div class="site-navigation-menu-items flex items-center justify-end">
         {.repeated section items}
 
-          <div class="{.section active}active-link{.end}">
+        <div class="{.section active}active-link{.end}">
 
-            <!-- collection link -->
-            {.section collection}
-              <a href="{fullUrl}">{navigationTitle}</a>
-            {.end}
+          <!-- collection link -->
+          {.section collection}
+          <a href="{fullUrl}">{navigationTitle}</a>
+          {.end}
 
-            <!-- external link -->
-            {.section externalLink}
-              <a href="{url}"{.section newWindow} target="_blank"{.end}>
-                {title}
-              </a>
-            {.end}
+          <!-- external link -->
+          {.section externalLink}
+          <a href="{url}" {.section newWindow} target="_blank" {.end}>
+            {title}
+          </a>
+          {.end}
 
-          </div>
+        </div>
         {.end}
 
-          <div>
-            <a href="/pre-launch/" class="button button-sm">Pre-launch</a>
-          </div>
-      </ul>
+        <div>
+          <a href="/pre-launch/" class="button button-sm">Pre-launch</a>
+        </div>
+
+        <button type="button" class="mobile-nav-toggle-close">
+          &times;
+        </button>
+      </div>
+
+      <button type="button" class="mobile-nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </div>
   </div>
 </nav>
+
+<script>
+  document.querySelector('.mobile-nav-toggle').addEventListener('click', function () {
+    document.querySelector('.site-navigation-menu-items').classList.add('open');
+  });
+
+  document.querySelector('.mobile-nav-toggle-close').addEventListener('click', function () {
+    document.querySelector('.site-navigation-menu-items').classList.remove('open');
+  });
+</script>
