@@ -78,7 +78,7 @@
     <div class="home-solution-row-first grid grid-cols-2 items-center">
       <div>
         <h2 class="text-5xl">The AI B2B solution revolutionizing retention in education.</h2>
-        <p>It's built for those in charge of student success, engagement, and goal achievement.</p>
+        <p>Built for those in charge of student success, engagement, and goal achievement.</p>
         <a href="/b2b-solutions/" class="button-white">Learn More</a>
       </div>
       <div class="text-center">
