@@ -100,7 +100,7 @@
           <a href="#!">Terms</a>
         </p>
         <p class="text-sm text-gray-500">
-          © 2023 MirrorIM.
+          © <script>document.write(new Date().getFullYear())</script> MirrorIM.
         </p>
         <div></div>
         <div class="text-right">
