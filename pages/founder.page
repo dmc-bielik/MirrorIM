@@ -5,7 +5,7 @@
         <img src="/assets/mirrorim-founder-deo.png" alt="mirrorim-founder-deo">
       </div>
       <div>
-        <h1>Founder Behind MirrorIM</h1>
+        <h1 class="text-5xl">Founder Behind MirrorIM</h1>
         <p>Deo Mwano is a nationally recognized speaker, program designer, and transformational cultural changemaker.
           His expertise lies in helping organizations maximize their impact through tools and resources that drive
           positive change in both personal lives and organizational cultures.</p>
