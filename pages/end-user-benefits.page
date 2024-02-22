@@ -6,6 +6,7 @@
         <p>MirrorIM is designed to help users envision and embody the future they aspire to. By fostering an emotional
           connection with their future selves, our tool keeps users engaged and excited, encouraging them to elevate
           their state of being.</p>
+        <a href="/contact/" class="button">Learn More</a>
       </div>
       <div>
         <img src="/assets/achieve-goals-maze.png" alt="achieve-goals-maze">
@@ -25,12 +26,12 @@
           been achieved. This process is anchored in the mission of their envisioned future.</p>
       </div>
       <div class="text-center">
-        <img src="/assets/visioning-the-future.png" alt="visioning-the-future">
+        <img src="/assets/visioning-future-1.png" alt="visioning-the-future">
       </div>
     </div>
     <div class="grid grid-cols-2 items-center">
       <div class="text-center">
-        <img src="/assets/breaking-patterns.png" alt="breaking-patterns">
+        <img src="/assets/breaking-patterns-1.png" alt="breaking-patterns">
       </div>
       <div>
         <h3 class="font-semibold">Breaking Patterns</h3>
@@ -45,7 +46,7 @@
           actions, and getting a taste of their future successes.</p>
       </div>
       <div class="text-center">
-        <img src="/assets/decision-making.png" alt="decision-making">
+        <img src="/assets/decision-making-1.png" alt="decision-making">
       </div>
     </div>
   </div>
@@ -56,7 +57,7 @@
     <h2 class="text-5xl text-center">Positive Reinforcement Tools</h2>
     <div class="grid grid-cols-2 items-center">
       <div class="text-center">
-        <img src="/assets/multimedia-content.png" alt="multimedia-content">
+        <img src="/assets/multimedia-content-1.png" alt="multimedia-content">
       </div>
       <div>
         <h3 class="font-semibold">Multimedia Content</h3>
@@ -71,7 +72,7 @@
           architects of their own lives. It encourages users to take ownership and responsibility for their actions.</p>
       </div>
       <div class="text-center">
-        <img src="/assets/insightful-guidance.png" alt="insightful-guidance">
+        <img src="/assets/insightful-guidance-1.png" alt="insightful-guidance">
       </div>
     </div>
   </div>
@@ -204,6 +205,9 @@
   <div class="container">
     <p class="text-center">MirrorIM is more than a tool; it's a companion in your journey towards realizing your full
       potential.</p>
+    <div class="text-center my-5">
+      <a href="/contact/" class="button">Contact Us</a>
+    </div>
   </div>
 </section>
 
