@@ -34,8 +34,7 @@
 
 <section class="home-link appear-on-scroll-2">
   <div class="container">
-    <p class="text-5xl text-center relative leading-tight text-grey">The missing link to ensuring<br />successful
-      results for industries that rely<br />on retention as a business model</p>
+    <p class="text-5xl text-center relative leading-tight text-grey">The missing link to increasing customer<br />retention</p>
   </div>
 </section>
 
@@ -46,23 +45,23 @@
     <div class="home-challenge-cards text-center text-white">
       <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/goals.png" alt="goals" width="110px">
-        <h3>Low Retention and Uncompleted Goals</h3>
-        <p>These are major obstacles that hinder maximizing revenue and profits.</p>
+        <h3>Low Retention</h3>
+        <p>Ineffective customer support causes churn, impacting revenue and profits.</p>
       </div>
       <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/resources.png" alt="resources" width="110px">
-        <h3>Resource Wastage</h3>
-        <p>Investments in support and incentives often miss the mark, becoming irrelevant and ineffective.</p>
+        <h3>Wasted Resources</h3>
+        <p>Incentives to keep customers engaged often miss the mark.</p>
       </div>
       <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/telescope.png" alt="telescope" width="80px">
         <h3>Lack of Engagement Forecasting</h3>
-        <p>Organizations struggle to predict and motivate user engagement for successful goal completion.</p>
+        <p>Organizations struggle to predict user engagement for successful goal completion.</p>
       </div>
       <div class="bg-blue appear-on-scroll-3">
         <img src="/assets/motivation.png" alt="motivation" width="90px">
         <h3>Inability to Identify Intrinsic Motivators</h3>
-        <p>There's a challenge in recognizing and leveraging what genuinely keeps users engaged at scale.</p>
+        <p>Businesses lose customers because they don’t understand their individual drivers.</p>
       </div>
     </div>
     {#  <div class="home-challenge-cta text-center">
@@ -77,8 +76,8 @@
     <p class="text-center">MirrorIM introduces a revolutionary approach</p>
     <div class="home-solution-row-first grid grid-cols-2 items-center">
       <div>
-        <h2 class="text-5xl">The AI B2B solution revolutionizing retention in education.</h2>
-        <p>Built for those in charge of student success, engagement, and goal achievement.</p>
+        <h2 class="text-5xl">MirrorIM is the AI B2B solution revolutionizing retention strategy</h2>
+        <p>An essential tool to manage engagement and goal achievement.</p>
         <a href="/b2b-solutions/" class="button-white">Learn More</a>
       </div>
       <div class="text-center">
@@ -91,15 +90,13 @@
       </div>
       <div class="inline-block mx-auto">
         <h3>AI-Driven User Support</h3>
-        <p>Utilizes advanced AI to encourage positive behavior in real-time, spurring users towards productivity and
-          goal completion.</p>
+        <p>MirrorIM uses advanced AI to personalize coaching and encourage positive behavior in real-time, spurring users toward productivity and goal completion.</p>
       </div>
     </div>
     <div class="home-solution-row home-solution-row-mid items-center">
       <div class="inline-block mx-auto">
         <h3>Data-Informed User Experience</h3>
-        <p>Provides comprehensive data for administrators to forge deeper connections and craft effective interventions,
-          ensuring users stay on track.</p>
+        <p>MirrorIM provides comprehensive data for administrators to craft effective interventions, ensuring users stay on track.</p>
       </div>
       <div class="text-center appear-on-scroll-4">
         <img src="/assets/data-informed-user-experience.png" alt="data-informed user experience" />
@@ -111,8 +108,7 @@
       </div>
       <div class="inline-block mx-auto">
         <h3>Goal Simplification</h3>
-        <p>Assists users in achieving success by breaking down ambitious goals into manageable tasks, encouraging
-          perseverance amid challenges.</p>
+        <p>MirrorIM assists users in achieving success by breaking down ambitious goals into manageable tasks, encouraging perseverance amid challenges.</p>
       </div>
     </div>
     {#  <div class="home-challenge-cta text-center">
@@ -127,8 +123,7 @@
       <div>
         <h2 class="text-5xl font-medium">How MirrorIM Works</h2>
         <h3 class="font-semibold">Visioning the Future</h3>
-        <p>We guide users to vividly feel their future, creating a sense of accomplishment as if their goals have
-          already been achieved. This process is anchored in the mission of their envisioned future.</p>
+        <p>Leveraging advanced AI for personalized coaching, MirrorIM guides users through small-scale tasks and keeps them on track to achieve big goals.</p>
         <a href="/end-user-benefits/" class="button">Learn More</a>
       </div>
       <div class="text-center">
@@ -139,20 +134,17 @@
       <div>
         <div class="home-how-detail">
           <h3 class="font-semibold">Behavior-Driven Insights</h3>
-          <p>Leverages insights based on user behavior to prompt timely accountability, interventions, and resource
-            allocation, aiding users in surmounting hurdles.</p>
+          <p>MirrorIM leverages insights based on user behavior to prompt timely accountability, interventions and resource allocation.</p>
         </div>
         <hr />
         <div class="home-how-detail">
-          <h3 class="font-semibold">Intrinsic Motivation Utilization</h3>
-          <p>Employs motivational tools such as images, videos, and audio clips, integrated into a user’s calendar as
-            events, tasks, and goals, to drive task completion.</p>
+          <h3 class="font-semibold">Intrinsic Motivation and Utilization</h3>
+          <p>MirrorIM employs motivational tools such as images, videos and audio clips, integrated into a user’s calendar as events, tasks, and goals to drive task completion.</p>
         </div>
         <hr />
         <div class="home-how-detail">
           <h3 class="font-semibold">Personalized User Experiences</h3>
-          <p>Each user journey is distinct, tailored to utilize the content uploaded by the user, ensuring maximum
-            motivation and engagement.</p>
+          <p>Each user journey is distinct, maximized by AI-driven content, ensuring engagement and motivation.</p>
         </div>
         {#  <div class="home-how-cta">
           <a href="/contact/" class="button">Contact Us</a>
@@ -170,8 +162,7 @@
     <div class="home-catalyst-row">
       <div>
         <img src="/assets/mirror-im-logo.svg" width="180" alt="mirror im">
-        <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal realization
-        </h2>
+        <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal retention realization</h2>
         {#  <a href="/contact/" class="button">Learn more</a>  }
       </div>
       <div class="relative">
@@ -195,10 +186,9 @@
       <div>
         <h2 class="text-5xl font-medium">Founder Behind MirrorIM</h2>
         <h3 class="font-semibold">The Genesis of MirrorIM</h3>
-        <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency education
-          organization focusing on blue-collar workers overlooked by traditional higher education. Deo was instrumental
-          in the founding team, developing a coaching model for student success.</p>
+        <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency education organization focusing on blue-collar workers overlooked by traditional higher education. Deo was instrumental in the founding team, developing a coaching model for student success.</p>
         <a href="/founder/" class="button">Learn More</a>
+        <p class="home-founder--click">Click here to learn more about Deo Mwano and the genesis of MirrorIM.</p>
       </div>
     </div>
   </div>

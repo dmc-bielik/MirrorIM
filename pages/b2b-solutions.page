@@ -2,8 +2,8 @@
   <div class="container">
     <div class="flex">
       <div class="flex-2">
-        <h1 class="text-5xl">The AI B2B solution revolutionizing retention in education.</h1>
-        <p>Built for those in charge of student success, engagement, and goal achievement.</p>
+        <h1 class="text-5xl">MirrorIM is the AI B2B solution revolutionizing retention in education</h1>
+        <p>Built to manage student success, engagement, and goal achievement.</p>
       </div>
       <div class="flex-3">
         <img src="/assets/ai-b2b-solution.png" alt="ai b2b solution">
@@ -21,8 +21,7 @@
       <div>
         <div class="max-w-lg">
           <h2 class="text-5xl leading-tight">The Challenge</h2>
-          <p class="my-7">Educational institutions struggle to predict student engagement and productivity, impacting
-            re-enrollment and retention, and therefore, the bottom line.</p>
+          <p class="my-7">Educational institutions struggle to predict student engagement and productivity, impacting re-enrollment and retention - and the bottom line.</p>
         </div>
         <a href="/contact/" class="button-white">Learn More</a>
       </div>
@@ -41,9 +40,8 @@
         <img src="/assets/target-audience-illustration.png" alt="target audience">
       </div>
       <div>
-        <h2>Target Audience</h2>
-        <p>MirrorIM is for administrators focused on student retention and success. They play a vital role in keeping
-          students motivated and aligned with their educational and financial goals.</p>
+        <h2 class="text-5xl leading-tight">Target Audience</h2>
+        <p>MirrorIM is for administrators focused on student retention and success. They play a vital role in keeping students motivated and aligned with their educational goals and financial capabilities.</p>
       </div>
     </div>
   </div>
@@ -52,7 +50,7 @@
 <section class="home-challenge">
   <div class="container">
     <h2 class="text-5xl text-center text-grey font-medium">What MirrorIM Offers</h2>
-    <div class="home-challenge-cards text-center text-white">
+    <div class="home-challenge-cards text-center text-white" style="grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 940px; margin-left: auto; margin-right: auto;">
       <div class="bg-blue appear-on-scroll-3" style="background-color: #FFAA00;">
         <img src="/assets/data-insights.png" alt="data insights" width="130px">
         <h3>Instant Data Insights</h3>
@@ -68,12 +66,12 @@
         <h3>Flexible Milestone Tracking</h3>
         <p>Adaptable tools for monitoring student progress.</p>
       </div>
-      <div class="bg-blue appear-on-scroll-3" style="background-color: #00A6D6;">
+      {#  <div class="bg-blue appear-on-scroll-3" style="background-color: #00A6D6;">
         <img src="/assets/retention-revenue.png" alt="retention revenue" width="110px">
         <h3>MirrorIM</h3>
         <p>A key tool for improving retention rates and revenue prediction in education. Elevate student success with
           us!</p>
-      </div>
+      </div>  }
     </div>
     <div class="home-challenge-cta text-center">
       <a href="/contact/" class="button">Contact Us</a>

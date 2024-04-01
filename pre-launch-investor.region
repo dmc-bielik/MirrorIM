@@ -23,15 +23,13 @@
     <main class="content-container" role="main" data-content-field="main-content">
       <section class="pre-hero">
         <div class="container">
-          <p class="text-center text-white">Thank you for your interest in the MirrorIM App! We're currently in the pre-public launch phase and thrilled
-            about the solution we're developing. To help us understand your interest and connect with you more effectively,
-            please select from the options below.</p>
+          <p class="text-center text-white">Thank you for your interest in MirrorIM! We're currently in the pre-public launch phase and thrilled about the solution we're developing. In order to connect you with the proper staff person, please select from the options below.</p>
         </div>
       </section>
 
       <section class="pre-options text-center">
         <div class="container">
-          <h2>Are You interested to be a Product User or a Potential Investor?</h2>
+          <h2>Are you interested in becoming a product user or investor?</h2>
           <div class="pre-options-row grid grid-cols-2">
             <a href="/pre-launch-user">
               <span class="pre-options-img flex items-center justify-center">

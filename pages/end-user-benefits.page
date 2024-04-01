@@ -2,10 +2,7 @@
   <div class="container">
     <div class="grid grid-cols-2">
       <div>
-        <h1 class="text-5xl">How MirrorIM Empowers Users to Achieve Their Goals</h1>
-        <p>MirrorIM is designed to help users envision and embody the future they aspire to. By fostering an emotional
-          connection with their future selves, our tool keeps users engaged and excited, encouraging them to elevate
-          their state of being.</p>
+        <h1 class="text-5xl">MirrorIM allows users to step into a world where aspirations are not just dreams, but a future that can be felt, shaped and achieved.</h1>
         <a href="/contact/" class="button">Learn More</a>
       </div>
       <div>
@@ -21,9 +18,7 @@
     <div class="grid grid-cols-2 items-center">
       <div>
         <h3 class="font-semibold">Visioning the Future</h3>
-        <p>We guide users to vividly feel their future, creating a sense of accomplishment as if their goals have
-          already
-          been achieved. This process is anchored in the mission of their envisioned future.</p>
+        <p>MirrorIM is designed to help users envision and embody the future they aspire to. By fostering an emotional connection with their future success, the app keeps users engaged and excited, encouraging them to elevate their state of being.</p>
       </div>
       <div class="text-center">
         <img src="/assets/visioning-future-1.png" alt="visioning-the-future">
@@ -35,15 +30,13 @@
       </div>
       <div>
         <h3 class="font-semibold">Breaking Patterns</h3>
-        <p>Our approach helps users break free from past choices that may have held them back, allowing them to focus on
-          a narrative that leads to their desired future.</p>
+        <p>MirrorIM helps users break the cycles of poor choices they may have held them back, allowing them to focus on a narrative that leads to their desired future.</p>
       </div>
     </div>
     <div class="grid grid-cols-2 items-center">
       <div>
         <h3 class="font-semibold">Decision Making</h3>
-        <p>MirrorIM assists users in making resolute decisions with positive intentions, aligning their emotions with
-          actions, and getting a taste of their future successes.</p>
+        <p>MirrorIM assists users in making resolute decisions with positive intentions, aligning their emotions with actions, and getting a taste of their future successes.</p>
       </div>
       <div class="text-center">
         <img src="/assets/decision-making-1.png" alt="decision-making">
@@ -61,15 +54,13 @@
       </div>
       <div>
         <h3 class="font-semibold">Multimedia Content</h3>
-        <p>We utilize a variety of content forms, including videos, images, and audio, to maintain positive focus and
-          inspire action.</p>
+        <p>MirrorIM utilizes a variety of content forms, including videos, images and audio, to maintain positive focus and inspire actions.</p>
       </div>
     </div>
     <div class="grid grid-cols-2 items-center">
       <div>
         <h3 class="font-semibold">Insightful Guidance</h3>
-        <p>Our tool provides insights on how to enact positive changes, fostering a belief in users that they are the
-          architects of their own lives. It encourages users to take ownership and responsibility for their actions.</p>
+        <p>MirrorIM provides insights on how to enact positive choices, fostering a belief in users that they are the architects of their own destinies. It encourages users to take ownership and responsibility for their own actions.</p>
       </div>
       <div class="text-center">
         <img src="/assets/insightful-guidance-1.png" alt="insightful-guidance">
@@ -92,16 +83,14 @@
       <img src="/assets/moody.svg" alt="moody">
       <div>
         <h3 class="font-semibold">Behavioral and Emotional Tracking</h3>
-        <p>The solution captures and organizes user behaviors and emotions, enhancing consciousness and connecting
-          beliefs, thoughts, feelings, and behaviors. This creates a momentum that consistently yields positive results
-          in everyday actions.</p>
+        <p>The solution captures and organizes user behaviors and emotions, enhancing consciousness and connecting beliefs, thoughts, feelings and behaviors. This creates momentum that consistently yields positive results in everyday actions.</p>
       </div>
     </div>
-    <p class="text-center end-user-loop-with mx-auto">With MirrorIM, step into a world where your aspirations are not
+    {#  <p class="text-center end-user-loop-with mx-auto">With MirrorIM, step into a world where your aspirations are not
       just
       dreams, but a future you
       can feel, shape,
-      and achieve.</p>
+      and achieve.</p>  }
   </div>
 </section>
 
@@ -114,8 +103,7 @@
         <span>1: Enhanced Goal Achievement:</span>
         <span></span>
       </button>
-      <div>MirrorIM aids users in clearly defining and accomplishing their personal and professional goals, providing a
-        structured pathway to success.</div>
+      <div>MirrorIM aids users in clearly defining and accomplishing their personal and professional goals, providing a structured pathway to success.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -123,8 +111,7 @@
         <span>2: Improved Productivity:</span>
         <span></span>
       </button>
-      <div>The tool boosts productivity by helping users identify and focus on high-impact activities, effectively
-        managing their time and resources.</div>
+      <div>The tool boosts productivity by helping users identify and focus on high-impact activities, effectively managing their time and resources.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -132,8 +119,7 @@
         <span>3: Personalized Experience:</span>
         <span></span>
       </button>
-      <div>MirrorIM offers a customized experience, adapting to each user's unique needs, preferences, and learning
-        styles for optimal engagement.</div>
+      <div>MirrorIM offers an AI-driven customized experience, adapting to each user’s unique needs, preferences, and learning styles for optimal engagement.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -141,8 +127,7 @@
         <span>4: Increased Motivation:</span>
         <span></span>
       </button>
-      <div>By aligning users' actions with their aspirations, MirrorIM keeps motivation levels high, ensuring consistent
-        progress towards set objectives.</div>
+      <div>By aligning users’ actions with their aspirations, MirrorIM keeps motivation levels high, ensuring consistent progress towards set objectives.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -150,8 +135,7 @@
         <span>5: Data-Driven Insights:</span>
         <span></span>
       </button>
-      <div>Users receive valuable insights based on their behavior and progress, allowing for informed decision-making
-        and strategy refinement.</div>
+      <div>Users receive valuable insights based on their behavior and progress, allowing for informed decision-making and strategy refinement.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -159,8 +143,7 @@
         <span>6: Emotional and Behavioral Support:</span>
         <span></span>
       </button>
-      <div>The platform supports users in navigating both emotional and behavioral challenges, fostering a healthy
-        mindset conducive to achieving their goals.</div>
+      <div>The platform supports users in navigating both emotional and behavior challenges, fostering a healthy mindset conducive to achieving their goals.</div>
     </div>
 
     <div class="end-user-benefits-question">
@@ -168,31 +151,28 @@
         <span>7: Enhanced Self-Awareness:</span>
         <span></span>
       </button>
-      <div>MirrorIM encourages greater self-awareness, helping users understand their strengths, weaknesses, and areas
-        for improvement.</div>
+      <div>MirrorIM encourages greater self-awareness, helping users understand their strengths, weaknesses, and areas for improvement.</div>
     </div>
 
-    <div class="end-user-benefits-question">
+    {#  <div class="end-user-benefits-question">
       <button type="button" class="flex items-center justify-between">
         <span>8: Community and Support:</span>
         <span></span>
       </button>
-      <div>Users become part of a supportive community, providing a network for sharing experiences, advice, and
-        encouragement.</div>
-    </div>
+      <div>With its user-friendly interface, MirrorIM is accessible anytime and anywhere, fitting seamlessly into the user’s lifestyle.</div>
+    </div>  }
 
     <div class="end-user-benefits-question">
       <button type="button" class="flex items-center justify-between">
-        <span>9: Accessibility and Convenience:</span>
+        <span>8: Accessibility and Convenience:</span>
         <span></span>
       </button>
-      <div>With its user-friendly interface, MirrorIM is accessible anytime and anywhere, fitting seamlessly into the
-        user's lifestyle.</div>
+      <div>With its user-friendly interface, MirrorIM is accessible anytime and anywhere, fitting seamlessly into the user’s lifestyle.</div>
     </div>
 
     <div class="end-user-benefits-question">
       <button type="button" class="flex items-center justify-between">
-        <span>10: Long-Term Benefits:</span>
+        <span>9: Long-Term Benefits:</span>
         <span></span>
       </button>
       <div>The skills and habits developed through MirrorIM have long-lasting impacts, extending beyond immediate goals
@@ -203,8 +183,7 @@
 
 <section class="end-user-prefooter">
   <div class="container">
-    <p class="text-center">MirrorIM is more than a tool; it's a companion in your journey towards realizing your full
-      potential.</p>
+    <p class="text-center">MirrorIM is more than a tool - it’s a companion in the journey towards realizing one’s full potential.</p>
     <div class="text-center my-5">
       <a href="/contact/" class="button">Contact Us</a>
     </div>
