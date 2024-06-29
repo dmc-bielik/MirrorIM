@@ -47,10 +47,10 @@
   </div>
 </section>
 
-<section class="home-challenge">
+<section class="home-challenge b2b-challenge-2">
   <div class="container">
     <h2 class="text-5xl text-center text-grey font-medium">What MirrorIM Offers</h2>
-    <div class="home-challenge-cards text-center text-white" style="grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 940px; margin-left: auto; margin-right: auto;">
+    <div class="home-challenge-cards text-center text-white">
       <div class="bg-blue appear-on-scroll-3" style="background-color: #FFAA00;">
         <img src="/assets/data-insights.png" alt="data insights" width="130px">
         <h3>Instant Data Insights</h3>
