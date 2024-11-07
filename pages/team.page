@@ -1,0 +1,15 @@
+<section class="team-biographies">
+  <div class="container">
+    <div class="team-member-container">
+        <img src="assets/deo-team.png" alt="Deo Mwano" class="team-picture">
+        <div class="team-description">  
+            <div class="team-name">Deo Mwano
+            </div>
+            <div class="team-title">CEO/Founder
+            </div>
+            <div class="team-bio">15 years of experience in coaching, learning engagement, and workforce development consulting, with additional expertise in working with tech startups.
+            </div>
+        </div>
+    </div>
+  </div>
+</section>
