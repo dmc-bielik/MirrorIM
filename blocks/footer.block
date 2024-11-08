@@ -103,9 +103,11 @@
           © <script>document.write(new Date().getFullYear())</script> MirrorIM.
         </p>
         <div></div>
+        <!--
         <div class="text-right">
           <img src="/assets/socials.png" alt="socials" width="120px">
         </div>
+        -->
       </div>
     </div>
   </div>
