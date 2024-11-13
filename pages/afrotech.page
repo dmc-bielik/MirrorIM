@@ -1,0 +1,76 @@
+<section class="afrotech">
+  <div class="afrotech-banner">
+    <div class="afrotech-title"> Afrotech Team</div>
+    <p class="afrotech-subtitle"> Contact info</p>
+  </div>
+  <div class="afrotech-container">
+    
+
+    <div class="afrotech-team-member">
+        <img src="assets/deo-team.png" alt="Deo Mwano" class="afrotech-team-picture">
+          
+        <div class="afrotech-team-name">Deo Mwano
+        </div>
+        <div class="afrotech-team-title">CEO/Founder
+        </div>
+        <div class="afrotech-team-bio">Email: <a href=mailto:“deo@deomwano.com”>deo@deomwano.com</a>
+        </div>
+        <div class="afrotech-team-bio">Phone: <a href=“tel:603-703-1922”>603-703-1922</a>
+        </div>
+        <div class="afrotech-team-bio" style="padding-top: 1rem">Linkedin: <a href="https://www.linkedin.com/in/deo-mwano-mba-89212667/">Deo's Linkedin</a>
+        </div>
+        
+    </div>
+    <div class="afrotech-team-member">
+        <img src="assets/milli-team.png" alt="Millicent Alhamis" class="afrotech-team-picture">
+          
+        <div class="afrotech-team-name">Milli Alhamis
+        </div>
+        <div class="afrotech-team-title">Program/Project Manager
+        </div>
+        <div class="afrotech-team-bio">Email: <a href=mailto:“millicent@deomwano.com”>millicent@deowmano.com</a>
+        </div>
+        <div class="afrotech-team-bio">Phone: <a href=“tel:603-785-6658”>603-785-6658</a>
+        </div>
+        <div class="afrotech-team-bio">Linkedin: <a href="https://www.linkedin.com/in/millicent-alhamis-0811611341">Milli's Linkedin</a>
+        </div>
+        
+    </div>
+    <div class="afrotech-team-member">
+        <img src="assets/david-team.png" alt="David Bielik" class="afrotech-team-picture">
+          
+        <div class="afrotech-team-name">David Bielik
+        </div>
+        <div class="afrotech-team-title">Solution Architect/ Developer
+        </div>
+        <div class="afrotech-team-bio">Email: <a href=mailto:“davidbielik@deomwano.com”>davidbielik@deomwano.com</a>
+        </div>
+        <div class="afrotech-team-bio">Phone: <a href=“tel:978-226-8168”>978-226-8168</a>
+        </div>
+        <div class="afrotech-team-bio">Linkedin: <a href="https://www.linkedin.com/in/david-bielik-385186256/">David's Linkedin</a>
+        </div>
+        
+    </div>
+  </div>
+  <div class="afrotech-botttom-banner">
+    <p class="afrotech-interested">Send us your info:</p>
+  </div>
+  <section class="afrotech-options text-center">         
+    <div class="aftrotech-button-container" style="display: flex; justify-content: center; gap: 20px;">
+      <div class="afrotech-options-row grid grid-cols-2">
+        <a href="/pre-launch-user">
+          <span class="afrotech-options-img flex items-center justify-center">
+            <img class="afrotech-img" src="/assets/potential-user.svg" alt="user">
+          </span>
+          <span class="afrotech-options-label">Product<br>User</span>
+        </a>
+        <a href="/afrotech-launch-investor">
+          <span class="afrotech-options-img flex items-center justify-center">
+            <img class="afrotech-img" src="/assets/potential-investor-white.png" alt="investor">
+          </span>
+          <span class="afrotech-options-label">Potential<br>Investor</span>
+        </a>
+      </div>
+    </div>
+  </section>  
+</section>
