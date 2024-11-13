@@ -7,7 +7,7 @@
     
 
     <div class="afrotech-team-member">
-        <img src="assets/deo-team.png" alt="Deo Mwano" class="afrotech-team-picture">
+        <img src="assets/team-deo.png" alt="Deo Mwano" class="afrotech-team-picture">
           
         <div class="afrotech-team-name">Deo Mwano
         </div>
@@ -22,7 +22,7 @@
         
     </div>
     <div class="afrotech-team-member">
-        <img src="assets/milli-team.png" alt="Millicent Alhamis" class="afrotech-team-picture">
+        <img src="assets/team-milli.png" alt="Millicent Alhamis" class="afrotech-team-picture">
           
         <div class="afrotech-team-name">Milli Alhamis
         </div>
@@ -37,7 +37,7 @@
         
     </div>
     <div class="afrotech-team-member">
-        <img src="assets/david-team.png" alt="David Bielik" class="afrotech-team-picture">
+        <img src="assets/team-david.png" alt="David Bielik" class="afrotech-team-picture">
           
         <div class="afrotech-team-name">David Bielik
         </div>
@@ -52,25 +52,23 @@
         
     </div>
   </div>
-  <div class="afrotech-botttom-banner">
-    <p class="afrotech-interested">Send us your info:</p>
-  </div>
-  <section class="afrotech-options text-center">         
-    <div class="aftrotech-button-container" style="display: flex; justify-content: center; gap: 20px;">
-      <div class="afrotech-options-row grid grid-cols-2">
-        <a href="/pre-launch-user">
-          <span class="afrotech-options-img flex items-center justify-center">
-            <img class="afrotech-img" src="/assets/potential-user.svg" alt="user">
-          </span>
-          <span class="afrotech-options-label">Product<br>User</span>
-        </a>
-        <a href="/afrotech-launch-investor">
-          <span class="afrotech-options-img flex items-center justify-center">
-            <img class="afrotech-img" src="/assets/potential-investor-white.png" alt="investor">
-          </span>
-          <span class="afrotech-options-label">Potential<br>Investor</span>
-        </a>
-      </div>
-    </div>
-  </section>  
+  <section class="pre-options text-center">
+   <div class="container">
+     <h2>Send us your info!</h2>
+     <div class="pre-options-row grid grid-cols-2">
+       <a href="/pre-launch-user">
+         <span class="pre-options-img flex items-center justify-center">
+           <img src="/assets/potential-user.svg" alt="user">
+         </span>
+         <span class="pre-options-label">Product<br>User</span>
+       </a>
+       <a href="/pre-launch-investor">
+         <span class="pre-options-img flex items-center justify-center">
+           <img src="/assets/potential-investor.png" alt="investor">
+         </span>
+         <span class="pre-options-label">Potential<br>Investor</span>
+       </a>
+     </div>
+   </div>
+  </section> 
 </section>
