@@ -58,15 +58,15 @@
    <div class="container">
      <h2>Send us your info!</h2>
      <div class="pre-options-row grid grid-cols-2">
-       <a href="https://forms.gle/kZskjPp6GTHaNf3p6">
+       <a href="https://forms.gle/kZskjPp6GTHaNf3p6" target="_blank">
          <span class="pre-options-img flex items-center justify-center" >
-           <img src="/assets/potential-user.svg" target="_blank" alt="user">
+           <img src="/assets/potential-user.svg" alt="user">
          </span>
          <span class="pre-options-label">Product<br>User</span>
        </a>
-       <a href="https://forms.gle/EDYrW8WoTQv2dRbG8">
+       <a href="https://forms.gle/EDYrW8WoTQv2dRbG8" target="_blank">
          <span class="pre-options-img flex items-center justify-center">
-           <img src="/assets/potential-investor.png" target="_blank" alt="investor">
+           <img src="/assets/potential-investor.png" alt="investor">
          </span>
          <span class="pre-options-label">Potential<br>Investor</span>
        </a>
