@@ -1,7 +1,7 @@
 <section class="afrotech">
   <div class="afrotech-banner">
     <div class="afrotech-title"> Afrotech Team</div>
-    <div class="afrotech-title"> Contact info</div>
+    <div class="afrotech-subtitle"> Contact info</div>
   </div>
   <div class="afrotech-container">
     
@@ -58,15 +58,15 @@
    <div class="container">
      <h2>Send us your info!</h2>
      <div class="pre-options-row grid grid-cols-2">
-       <a href="/pre-launch-user">
-         <span class="pre-options-img flex items-center justify-center">
-           <img src="/assets/potential-user.svg" alt="user">
+       <a href="https://forms.gle/kZskjPp6GTHaNf3p6">
+         <span class="pre-options-img flex items-center justify-center" >
+           <img src="/assets/potential-user.svg" target="_blank" alt="user">
          </span>
          <span class="pre-options-label">Product<br>User</span>
        </a>
-       <a href="/pre-launch-investor">
+       <a href="https://forms.gle/EDYrW8WoTQv2dRbG8">
          <span class="pre-options-img flex items-center justify-center">
-           <img src="/assets/potential-investor.png" alt="investor">
+           <img src="/assets/potential-investor.png" target="_blank" alt="investor">
          </span>
          <span class="pre-options-label">Potential<br>Investor</span>
        </a>
