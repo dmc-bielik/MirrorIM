@@ -1,6 +1,7 @@
 <section class="afrotech">
   <div class="afrotech-banner">
-    <div class="afrotech-title"> Afrotech Team <br> Contact info</div>
+    <div class="afrotech-title"> Afrotech Team</div>
+    <div class="afrotech-title"> Contact info</div>
   </div>
   <div class="afrotech-container">
     
@@ -51,7 +52,7 @@
         
     </div>
   </div>
-  <hr class="afrotech-hr">
+  <hr width="50%">
 
   <section class="pre-options text-center">
    <div class="container">
