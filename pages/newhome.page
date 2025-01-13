@@ -6,7 +6,7 @@
 </section>
 
 <section class="home-video">
-  <h2 class="text-5xl text-center relative leading-tight text-grey">How Does MirrorIM Work?</h2>
+  <h2 class="">How Does MirrorIM Work?</h2>
   <div class="home-video-container">
     <iframe class="home-youtube-video" src="https://www.youtube.com/embed/-1Zi8hbhmh4?si=IvJf1JAgeZHPWMVL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
