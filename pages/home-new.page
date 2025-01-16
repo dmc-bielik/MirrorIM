@@ -12,11 +12,8 @@
   </div>
 </section>
 -->
-<section class="home-tool bg-blue text-white relative">
-  <div class="home-tool-triangle-1"></div>
-  <div class="home-tool-triangle-2"></div>
-  <div class="home-tool-rectangle"></div>
-  <div class="container">
+<section class="home-tool text-white relative">
+  <div class="container box-shadow">
     <div class="home-tool-row">
       <div>
         <div class="max-w-lg">
@@ -27,48 +24,53 @@
             the journey of your customers with MirrorIM, driving conversions, bolstering retention, and enhancing
             forecasting accuracy.</p>
         </div>
-        <a href="/contact/" class="button-white">Learn More</a>
+        <a href="/contact/" class="button-roundedwhite">Learn More</a>
       </div>
       <div>
-        <img src="/assets/mirror-im-web-dashboard.png" alt="mirrorIM web dashboard"
+        <img src="/assets/tool-screens.png" alt="mirrorIM web dashboard"
           class="home-tool-dashboard appear-on-scroll-1" />
       </div>
     </div>
-    <img src="/assets/mirror-im-mobile-goal-details.png" alt="mirror im mobile goal details"
-      class="home-tool-goal block appear-on-scroll-1" />
   </div>
 </section>
-
+<section class="home-bullseye box-shadow">
+  <div class="container">
+    <div class="home-bullseye-card justify-center">
+      <img src="/assets/goal-details.png" alt="goal details screen"
+        class="home-bullseye-goals" />
+      <div class="home-bullseye-right appear-on-scroll-1 justify-center" >
+        <img src="assets/bullseye.png" alt="arrow hitting bullseye" class="home-bullseye-image"/>
+        <h2>Accomplish tasks <br> and reach goals and achieve success</h2>
+      </div>
+    </div>
+  </div>
+</section>
+<!--
 <section class="home-link appear-on-scroll-2">
   <div class="container">
     <p class="text-5xl text-center relative leading-tight text-grey">The missing link to increasing customer<br />retention</p>
   </div>
 </section>
-
+-->
 <section class="home-challenge">
   <div class="container">
-    <h2 class="text-5xl text-center text-grey font-medium">The Challenge</h2>
-    <p class="text-center text-grey">Many organizations face significant hurdles</p>
-    <div class="home-challenge-cards text-center text-white">
-      <div class="bg-blue appear-on-scroll-3">
-        <img src="/assets/goals.png" alt="goals" width="110px">
-        <h3>Low Retention</h3>
-        <p>Ineffective customer support causes churn, impacting revenue and profits.</p>
+    <h2 class="text-5xl text-center font-medium">The Challenges</h2>
+    <div class="home-challenge-cards text-center">
+      <div class="home-challenge-cards-white appear-on-scroll-3 box-shadow">
+        <h2>Wasted Resources on Ineffective Incentives</h2>
+        <img src="/assets/wasted-resources.png" alt="wasted resources" width="150px">
       </div>
-      <div class="bg-blue appear-on-scroll-3">
-        <img src="/assets/resources.png" alt="resources" width="110px">
-        <h3>Wasted Resources</h3>
-        <p>Incentives to keep customers engaged often miss the mark.</p>
+      <div class="home-challenge-cards-gradient appear-on-scroll-3 text-white box-shadow">
+        <h2>Low Engagement Hurts Retention and Profits</h2>
+        <img src="/assets/retention-profits.png" alt="retention and profits" width="150px">
       </div>
-      <div class="bg-blue appear-on-scroll-3">
-        <img src="/assets/telescope.png" alt="telescope" width="80px">
-        <h3>Lack of Engagement Forecasting</h3>
-        <p>Organizations struggle to predict user engagement for successful goal completion.</p>
+      <div class="home-challenge-cards-white appear-on-scroll-3 box-shadow">
+        <h2>Outdated Motivation Methods Stifle Innovation</h2>
+        <img class="innovation" src="/assets/stifle-innovation.png" alt="stifle innovation" width="200px">
       </div>
-      <div class="bg-blue appear-on-scroll-3">
-        <img src="/assets/motivation.png" alt="motivation" width="90px">
-        <h3>Inability to Identify Intrinsic Motivators</h3>
-        <p>Businesses lose customers because they don’t understand their individual drivers.</p>
+      <div class="home-challenge-cards-gradient appear-on-scroll-3 text-white box-shadow">
+        <h2>Uncertain Forecasting Weakens Financial Planning</h2>
+        <img src="/assets/financial-planning.png" alt="financial planning" width="200px">
       </div>
     </div>
     {#  <div class="home-challenge-cta text-center">
@@ -77,126 +79,103 @@
   </div>
 </section>
 
-<section class="home-solution bg-blue text-white">
+<section class="home-markets">
   <div class="container">
-    <h2 class="text-5xl text-center font-medium">The Solution</h2>
-    <p class="text-center">MirrorIM introduces a revolutionary approach</p>
-    <div class="home-solution-row-first grid grid-cols-2 items-center">
-      <div>
-        <h2 class="text-5xl">MirrorIM is the AI B2B solution revolutionizing retention strategy</h2>
-        <p>An essential tool to manage engagement and goal achievement.</p>
-        <a href="/b2b-solutions/" class="button-white">Learn More</a>
+    <h2 class="text-5xl text-center font-medium">Targeted Markets</h2>
+    <div class="home-markets-cards">
+      <div class="home-markets-cards-white appear-on-scroll-3 box-shadow">
+        <h2 class="leading-tight">Workforce Employee Engagement</h2>
+        <img src="/assets/workforce-engagement.png" alt="workforce engagement" width="280px">
+        <h3>Challenge</h3>
+        <p>Low morale, productivity, and misalignment between roles and objectives.</p>
+        <h3>Retention Struggle</h3>
+        <p>Failing to meet goals causes morale to drop and disengagement to rise.</p>
       </div>
-      <div class="text-center">
-        <img src="/assets/revolutionizing-retention-education.png" alt="revolutionizing-retention-education">
+      <div class="home-markets-cards-white appear-on-scroll-3 box-shadow">
+        <h2 style="padding-bottom: 24px;">Online Education</h2>
+        <img src="/assets/online-education.png" alt="online education" width="280px">
+        <h3>Challenge</h3>
+        <p>Learners struggle with motivation, leading to engagement drop-off.</p>
+        <h3>Retention Struggle</h3>
+        <p>Many learners sign up but fail to complete courses, resulting in cancellations.</p>
       </div>
-    </div>
-    <div class="home-solution-row items-center">
-      <div class="text-center appear-on-scroll-4">
-        <img src="/assets/ai-driven-user-support.png" alt="ai-driven user support" />
+      <div class="home-markets-cards-white appear-on-scroll-3 box-shadow">
+        <h2 class="leading-tight">Gym and Fitness Industries</h2>
+        <img src="/assets/gym-fitness.png" alt="wasted resources" width="280px">
+        <h3>Challenge</h3>
+        <p>Lack of accountability and fading motivation hurt consistency.</p>
+        <h3>Retention Struggle</h3>
+        <p>Members lose interest, leading to high churn rates.</p>
       </div>
-      <div class="inline-block mx-auto">
-        <h3>AI-Driven User Support</h3>
-        <p>MirrorIM uses advanced AI to personalize coaching and encourage positive behavior in real-time, spurring users toward productivity and goal completion.</p>
-      </div>
-    </div>
-    <div class="home-solution-row home-solution-row-mid items-center">
-      <div class="inline-block mx-auto">
-        <h3>Data-Informed User Experience</h3>
-        <p>MirrorIM provides comprehensive data for administrators to craft effective interventions, ensuring users stay on track.</p>
-      </div>
-      <div class="text-center appear-on-scroll-4">
-        <img src="/assets/data-informed-user-experience.png" alt="data-informed user experience" />
-      </div>
-    </div>
-    <div class="home-solution-row items-center">
-      <div class="text-center appear-on-scroll-4">
-        <img src="/assets/goal-simplification.png" alt="goal simplification" />
-      </div>
-      <div class="inline-block mx-auto">
-        <h3>Goal Simplification</h3>
-        <p>MirrorIM assists users in achieving success by breaking down ambitious goals into manageable tasks, encouraging perseverance amid challenges.</p>
-      </div>
+      
     </div>
     {#  <div class="home-challenge-cta text-center">
-      <a href="/contact/" class="button-white">Learn More</a>
+      <a href="/contact/" class="button">Contact Us</a>
     </div>  }
   </div>
 </section>
+<div class="home-cta">
+  <a href="/contact/" class="button-roundedblue">Learn More</a>
+</div>
 
-<section class="home-how">
-  <div class="container appear-on-scroll-5">
-    <div class="home-how-row-first grid grid-cols-2 items-center">
-      <div>
-        <h2 class="text-5xl font-medium">How MirrorIM Works</h2>
-        <h3 class="font-semibold">Visioning the Future</h3>
-        <p>Leveraging advanced AI for personalized coaching, MirrorIM guides users through small-scale tasks and keeps them on track to achieve big goals.</p>
-        <a href="/end-user-benefits/" class="button">Learn More</a>
-      </div>
-      <div class="text-center">
-        <img src="/assets/visioning-future.png" alt="visioning-future">
+<section class="home-solutions">
+  <div class="home-solutions-outer text-white">
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/motiva-core.png" alt="Motiva Core AI" width="120px">
+        <h2> Motiva Core AI </h2>
+        <p>Proprietary AI that guides users toward positive behaviors and best 
+        practices to consistently achieve their goals.</p>
       </div>
     </div>
-    <div class="home-how-row items-center">
-      <div>
-        <div class="home-how-detail">
-          <h3 class="font-semibold">Behavior-Driven Insights</h3>
-          <p>MirrorIM leverages insights based on user behavior to prompt timely accountability, interventions and resource allocation.</p>
-        </div>
-        <hr />
-        <div class="home-how-detail">
-          <h3 class="font-semibold">Intrinsic Motivation and Utilization</h3>
-          <p>MirrorIM employs motivational tools such as images, videos and audio clips, integrated into a user’s calendar as events, tasks, and goals to drive task completion.</p>
-        </div>
-        <hr />
-        <div class="home-how-detail">
-          <h3 class="font-semibold">Personalized User Experiences</h3>
-          <p>Each user journey is distinct, maximized by AI-driven content, ensuring engagement and motivation.</p>
-        </div>
-        {#  <div class="home-how-cta">
-          <a href="/contact/" class="button">Contact Us</a>
-        </div>  }
-      </div>
-      <div>
-        <img src="/assets/how-mirror-im-works.png" alt="how mirror-im works" />
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/scheduler.png" alt="partner power connect" width="126px">
+        <h2 class="leading-tight" style="padding-top: 10px;">Smart Track Scheduler</h2>
+        <p>Advanced task tracking and calendar reminders that keep users organized and focused on their responsibilities.</p>
       </div>
     </div>
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/partner.png" alt="Partner Power Connect" width="164px">
+        <h2 class="leading-tight" style="padding-top: 10px;">Partner Power Connect</h2>
+        <p>An accountability system that pairs users with peers, 
+        mentors, or AI partners to stay motivated and on track.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/persevera-quest.png" alt="Persevera Quest" width="130px">
+        <h2>Persevera Quest</h2>
+        <p>Structured problem-solving activities designed to build resilience and 
+        perseverance, driving users toward continuous progress.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/grit-master.png" alt="Grit Master" width="132px">
+        <h2 class="leading-tight" style="padding-top: 10px;">Grit Master Challenges</h2>
+        <p>Engaging, gamified challenges that cultivate grit and perseverance, 
+        helping users overcome obstacles and reach new heights.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/progress-pulse.png" width="138px">
+        <h2 class="leading-tight" style="padding-top: 10px;">Progress Pulse Insights</h2>
+        <p>AI-driven performance metrics and insights, delivering personalized 
+        recommendations to keep users on the path to success.</p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="home-solutions-content">
+        <img src="/assets/victory-path.png" width="96px">
+        <h2 class="leading-tight" style="padding-top: 10px;">Victory Path Rewards</h2>
+        <p>A dynamic reward system that celebrates users' achievements with recognition and 
+        rewards for both small wins and major milestones</p>
+      </div>
+    </div>
+    
   </div>
-</section>
+</section
 
-<section class="home-catalyst">
-  <div class="container">
-    <div class="home-catalyst-row">
-      <div>
-        <img src="/assets/mirror-im-logo.svg" width="180" alt="mirror im">
-        <h2 class="text-blue text-5xl leading-tight">Your catalyst for sustained user engagement and goal retention realization</h2>
-        {#  <a href="/contact/" class="button">Learn more</a>  }
-      </div>
-      <div class="relative">
-        <img src="/assets/charming-brunette-studying-alone.png" alt="charming brunette studying alone"
-          class="appear-on-scroll-6">
-        <img src="/assets/black-man-using-computer.png" alt="black man using computer" class="appear-on-scroll-6">
-        <img src="/assets/muscular-sportsman-building-biceps-with-dumbbell.png"
-          alt="muscular sportsman building biceps with dumbbell" class="appear-on-scroll-6">
-        <img src="/assets/ella-olsson-ingredients.png" alt="ingredients" class="appear-on-scroll-6">
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="home-founder">
-  <div class="container">
-    <div class="grid grid-cols-2 items-center">
-      <div class="text-center">
-        <img src="/assets/mirrorim-founder-deo.png" alt="mirror im founder deo mwano">
-      </div>
-      <div>
-        <h2 class="text-5xl font-medium">Founder Behind MirrorIM</h2>
-        <h3 class="font-semibold">The Genesis of MirrorIM</h3>
-        <p>Inspiration from Adult Education:The concept of MirrorIM was born during Deo's time at a competency education organization focusing on blue-collar workers overlooked by traditional higher education. Deo was instrumental in the founding team, developing a coaching model for student success.</p>
-        <a href="/founder/" class="button">Learn More</a>
-        <p class="home-founder--click">Click here to learn more about Deo Mwano and the genesis of MirrorIM.</p>
-      </div>
-    </div>
-  </div>
-</section>
